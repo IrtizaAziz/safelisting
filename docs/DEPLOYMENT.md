@@ -1,11 +1,9 @@
-# Deploy prototype to Vercel (after GitHub is published)
+# SafeListing deployment notes — no deployment authorized
 
-1. Import your **private** GitHub repository into Vercel (authorize repository access when prompted).
-2. Framework preset: **Vite**. Build command: `npm run build`. Output directory: `dist`.
-3. No project secrets required for the current synthetic demo.
-4. Deploy a preview branch before releasing a production demo URL.
-5. Test page refresh/deep links, phone layout, and the operator-resolve interaction in the deployed preview.
-6. Keep source, design and research repository private unless your team and competition terms permit publication.
-7. Verify any third-party provider, AI model and mapping service rates/licenses before connecting them.
+Canonical source: private https://github.com/IrtizaAziz/safelisting. The repository rename does not deploy or rename hosting projects, DNS or production infrastructure.
 
-The current implementation is entirely client-side; there is no remote database, user authentication or live geospatial API. It can be demonstrated offline from a local Vite build.
+Current implementation: scope/status overview and separate legacy fictional mobility reference. ListingAuth, AI TermsGuard and HomeLedger Lite are planned. No issuer service, signing, authority check, SDP API, land registry, database or authentication. Do not label a static preview operational rental verification.
+
+Existing `vercel.json` is generic Vite configuration: `npm run build`, output `dist`. It contains no former slug and needs no infrastructure change. When a separate task explicitly approves a preview, use this repository, inspect build logs and test the actual URL, refresh, disclosures, phone/desktop and legacy navigation. No secrets required for current screens. Fonts make an external request; do not promise fully offline typography.
+
+Keep source/research private unless rights review permits release. Providers, APIs and production branding need separate approval. Do not create a hosting project solely because GitHub was renamed.

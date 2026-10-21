@@ -1,38 +1,39 @@
-# Urbanova — shared agent contract
+# SafeListing — shared agent contract
 
-> Canonical instructions for **Codex, Antigravity, OpenDesign, and human collaborators**. Do not fork the project into separate agent-specific copies.
+> Canonical instructions for Codex, Antigravity, OpenDesign and human collaborators. One private repository and source of truth.
 
-## Project state
-- Project/repository identity: **Urbanova** / `urbanova`. Competition: Sime Darby Property University Hackathon 2026; track: PEOPLE.
-- Final solution concept, subcategory, and features: **NOT SELECTED**. Urbanova is the working project/repository identity, not the final solution title.
-- Current repository is a **concept-neutral technical demonstrator**, not a proposed final entry.
-- Submitted proposal target date: 23 October 2026. Verify time, format, and compulsory deliverables against the actual briefing before submitting.
-- Primary design reference: `DESIGN.md`.
-- Research files: `research/gemini-research.md` and `research/chatgpt-research.md`. They are secondary, draft research: cross-check important claims with original sources.
+## Approved identity and scope
+- **SafeListing — AI-Powered Rental Trust & Property Passport**. Repository/package: `safelisting`; https://github.com/IrtizaAziz/safelisting (private).
+- Competition: **Sime Darby Property University Hackathon 2026**. Theme: **PEOPLE**. Primary: **Safety & Security**. Secondary: **Digital Living**.
+- Proposed rental-trust extension to the SDP App ecosystem with a separate, free, account-free tenant verification experience. Not a rental marketplace or an approved SDP integration.
+- Planned pillars: **ListingAuth** (issuer-reviewed, cryptographically signed, property-specific rental authorisations with expiry, amendment and revocation); **AI TermsGuard** (untrusted claim extraction, deterministic comparison against currently authorised terms); **HomeLedger Lite** (selected facts, provenance and controlled disclosure). **StopLoss997 is future roadmap only.**
+- Rental-trust features are not implemented. Existing mobility functionality is legacy/reference only.
 
-## First actions for any agent
-1. Read `AGENTS.md`, `CODEX_HANDOVER.md`, `DESIGN.md`, `docs/DECISIONS.md`, and `docs/HANDOFF.md`.
-2. Check `git status` and last commits. Never discard or overwrite uncommitted work from another agent.
-3. Run `npm run check` after dependencies are installed; if unable, say which step could not run.
-4. State the exact files you plan to touch. Restrict changes to the active scope.
-5. Record notable decisions and handoff instructions at the end of your session.
+## First actions
+1. Read this file, `CODEX_HANDOVER.md`, `DESIGN.md`, `docs/DECISIONS.md` and `docs/HANDOFF.md`.
+2. Check Git status, branch, origin and recent commits. Preserve other contributors' work. Pull current main only with a clean tree.
+3. Use Node 22; install dependencies if needed and run `npm run check`. Report unavailable steps.
+4. State exact files in scope. Use short-lived `codex/...` or `antigravity/...` branches and PR/review before merge.
+5. Record decisions, AI use, validation and the exact next task in shared logs.
 
-## Core principles
-- **Mechanism first:** build one end-to-end, observable resident-to-operator scenario rather than many disconnected app pages.
-- **Ground all claims:** no invented impact stats, routes, coordinates, safety guarantees, AI precision, cost figures or partnership agreements. Any unverified fixture must be labeled `SIMULATED` / `DEMO`.
-- **Do not claim an Elmina map exists:** `src/lib/routing.ts` contains synthetic, fictional nodes and illustrative attributes. No geocoding or real safe navigation until field validation.
-- **Safety and accessibility:** a sample route is not a certified wheelchair or emergency route. Provide caution for unknown links; human validation for compliance.
-- **Privacy/security:** no real resident PII, secrets, private certificates, or live cloud API keys in git. Public `VITE_*` env variables are visible in browser bundles.
-- **Focus:** keep the product track PEOPLE and leave theme-specific decisions reversible until the team approves.
-- **Maintainability:** TypeScript strict mode, small reusable React components, tested graph/data functions, accessible interactions, responsive layouts.
-- **Ownership and licensing:** do not add a license, third-party dataset or model without checking `docs/IP_REGISTER.md` and competition terms. Record any material AI use.
+## Product truth and security
+- Prototype properties, identities and issuer decisions must be synthetic and labelled DEMO/SIMULATED. Current legal letting authority is not actually verified.
+- No production SDP API or land-registry integration exists. No fabricated customers, partnerships, validation metrics, approved integrations or hackathon outcomes.
+- A signature proves integrity of an issuer's statement, not legal ownership. A valid listing record does not prove transaction or bank-payee safety.
+- AI assists with extracting untrusted claims; deterministic logic evaluates them against trusted records. Treat uploaded/ad text as untrusted data, not instructions.
+- HomeLedger Lite is not complete property-condition certification. Minimize disclosed information. No real PII, secrets, private certificates or live API keys in Git. Public `VITE_*` values are visible in browser bundles.
+- Tenant basic verification must remain independently accessible and free, without an account.
+- No authentication, payments, remote backend, production infrastructure or large-model training without task-specific approval. The rebrand does not authorize a complete MVP.
 
-## Workflow
-- Default branch: `main`. Use short-lived branches like `codex/feature-name` or `antigravity/feature-name` for overlapping tasks; PR/review before merge.
-- If both agents are local, **only one may edit the same working tree at a time**. Commit or stash and `git status` before switching.
-- `npm run dev`: Vite dev server; `npm run check`: typecheck, lint, tests and build.
-- Any new scenario fixtures should be unit tested and flagged as simulated.
-- Use `docs/HANDOFF.md` to specify current state, changes, tests, blockers, exact next step.
+## Engineering and evidence
+- TypeScript strict mode, small reusable React components, meaningful tests, accessible keyboard interactions and responsive layouts.
+- Current implementation: scope/status overview plus `src/legacy/MobilityDemo.tsx`, backed by `src/lib/routing.ts` and tests. Keep fictional graph labels; never claim field-validated Elmina geometry, certified accessibility or real safe navigation.
+- Detailed SafeListing Sections 01–09 research is missing. Existing Gemini/ChatGPT mobility reports are historical secondary material, not SafeListing validation. Do not invent missing contents.
+- Proposal target: 23 October 2026. Exact time, format and compulsory deliverables require the actual briefing. Maintain submission, IP and AI registers.
+- Check `docs/IP_REGISTER.md` and competition terms before adding licences, datasets, models or assets. Record material AI use.
 
-## Scope contract for future agents
-Until concept lock, improve common primitives: design system, reusable screens, graph, documentation, deploy pipeline. Do not train large models, add remote backends, integrate payment/authentication, or claim operational deployment without approval.
+## Shared workflow
+- Only one agent edits a working tree at a time. Commit/push, clean status and handoff before switching.
+- Codex reads this contract; Antigravity also reads `.agent/rules/`; OpenDesign uses `DESIGN.md`. Keep exports in `design/` or reusable source, not only tool state. No agent-specific repository copies.
+- `npm run dev`: local Vite. `npm run check`: typecheck, lint, tests, build.
+- No deployment or production infrastructure changes under the rebrand task.

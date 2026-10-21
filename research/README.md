@@ -6,4 +6,6 @@ These are full user-supplied research reports, retained to preserve competing vi
 
 They are **not** independently verified primary sources. May contain errors, inaccessible citations, images that need provenance checks, competing assumptions, and proposed rather than measured results. Never repeat their numerical scenario outcomes as empirical pilot findings. Before using any claimed fact in the proposal, open an original accessible source and add an audit trail to the pitch.
 
-The 2026 PEOPLE concept is still awaiting team selection; neither document has been adopted as the final scope.
+## Current relevance after SafeListing selection
+
+These reports predate the approved SafeListing rental-trust direction and are retained unchanged as historical mobility research. Neither is SafeListing validation. The detailed SafeListing Sections 01–09 research exists separately and is not present here; obtain those source files instead of inventing their contents.

@@ -1,12 +1,10 @@
-# Team workflow (3–5 students)
+# SafeListing team workflow (3–5 students)
 
-Suggested responsibilities, adaptable to actual team skills:
-- Research / validation: real user problem, sources, comparator products, stakeholder evidence.
-- Prototype / algorithm: graph, dataset, functional mechanism, tests.
-- UX / design: OpenDesign assets, accessibility, resident/operator flow, pitch screenshots.
-- Pitch / product: impact model, SDP relevance, storyboard, deliverables and evidence audit.
-- Release / reviewer (optional fifth): CI, demos, reproducibility, IP/licensing and AI-use disclosure.
+Suggested roles, subject to actual team agreement:
+- Research/validation: rental-trust user problem, primary evidence, issuer authority and privacy; obtain missing Sections 01–09 sources.
+- Engineering: synthetic ListingAuth lifecycle and deterministic tenant result before AI; expiry/amendment/revocation cases.
+- UX/design: independent free account-free tenant verification, provenance/unknown states and approved OpenDesign assets.
+- Product/pitch: mechanism/enabler, Safety & Security and Digital Living, honest planned/implemented boundaries.
+- Release/reviewer: CI, reproducibility, dependency advisories, AI disclosure and IP review.
 
-Before inviting people, keep repository **private**, confirm the owner account and agree who can merge to `main`. Don't commit credentials or screenshots containing personal data. Each collaborator creates short branches and records useful handoff notes. On GitHub, use Settings → Collaborators to invite the confirmed team members; invitations must be accepted by them.
-
-After concept lock, replace this modular starter only as far as needed for the selected user journey. One polished, testable mechanism beats many empty screens.
+Keep https://github.com/IrtizaAziz/safelisting private. Confirm collaborators/merge permissions before invitations. One editor per working tree; short-lived branches, PRs, clean status and shared handoff. No real PII/credentials. No approved SDP integration claims or legacy mobility as proof of rental verification. StopLoss997 remains future roadmap only.

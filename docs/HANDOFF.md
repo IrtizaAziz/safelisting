@@ -1,54 +1,39 @@
-# Agent handoff — living status
+# SafeListing — agent handoff
 
-**State as of 21 Oct 2026 (Asia/Kuala_Lumpur):** working name **Urbanova** (`urbanova`); final PEOPLE solution not selected. Local verification now passes. User authorized a new private repository: `https://github.com/IrtizaAziz/urbanova`. No deployment approved or created. See the takeover verification below for current evidence; older preparation notes are retained as history.
+## Current state — 21 October 2026 (Asia/Kuala_Lumpur)
+**SafeListing — AI-Powered Rental Trust & Property Passport**. PEOPLE, primary Safety & Security, secondary Digital Living. Canonical private repository: https://github.com/IrtizaAziz/safelisting.
 
-## Currently implemented
-- Workspace branded Urbanova and portable across Codex, Antigravity and OpenDesign.
-- Vite + React 19 + TypeScript frontend, responsive resident/operator/research workspace.
-- Small deterministic **fictional** network graph and route preferences: direct, accessible, shade-comfort.
-- Simulated barrier rectification causes graph-based re-routing, with route-unit tests.
-- DESIGN.md and AGENTS.md shared between Codex, Antigravity and OpenDesign.
-- Both independent draft research reports are in `research/`.
+The existing repository was renamed in place from **Urbanova** (former name); GitHub ID `R_kgDOVRa_dg` was identical before and after rename. Git history was preserved. Origin updated to the new URL. Local folder retains its former name to avoid disrupting an active shared checkout. No deployment or production infrastructure changes.
 
-## Verified / unverified
-- Source files and route algorithm authored; dependency installation and runtime/CI test status must be checked on a machine with npm registry access.
-- No real township geography, user interviews, actual model inference, measured outcomes or public deployment is included.
-- Verify actual initial submission requirements and IP clauses against authoritative briefing and T&C.
+## Existing versus planned
+- Implemented: product scope/status overview with explicit planned labels; accessible entry/return navigation to the preserved fictional mobility example in `src/legacy/MobilityDemo.tsx`.
+- Preserved: deterministic fictional graph and five route tests in `src/lib/`, mobility/operator/research screens and simulation disclosures. This is legacy reference, not rental verification.
+- Planned only: ListingAuth, AI TermsGuard and HomeLedger Lite. StopLoss997 remains future roadmap only.
+- No live legal letting authority checks, issuer review/signing service, rental records, production SDP API, land registry, AI extraction or complete condition certification. No transaction/bank-payee safety or ownership guarantees.
+- All future prototype properties, identities and issuer decisions must be synthetic. AI extracts untrusted claims; deterministic logic evaluates against trusted records. Tenant basic verification remains independently accessible, free and account-free.
+- Detailed SafeListing Sections 01–09 source research is missing. Historical mobility reports are preserved unchanged; not SafeListing validation.
 
-## Rename/handover note
-- User selected **Urbanova**; repository slug `urbanova`; still awaiting a GitHub URL or creation.
-- OpenDesign and Codex/Antigravity support is **documented**, not yet configured on the user device.
-- `CODEX_HANDOVER.md` gives Codex its takeover task and verification requirements.
+## Rebrand session
+- Branch: `codex/rebrand-safelisting`, based on clean/current main `9e7e579`.
+- Remote rename: user-authorized `gh repo rename safelisting --repo IrtizaAziz/urbanova --yes`; same repository ID and private visibility verified. Description updated, origin set to `https://github.com/IrtizaAziz/safelisting.git`.
+- Paths: package/lockfile and HTML metadata; new `src/App.tsx`, `src/App.test.ts`, `src/safelisting.css`; old App moved to `src/legacy/MobilityDemo.tsx`; shared agent/design/readme/handover docs, Antigravity workflows, design brief, team/deployment/workflow/submission docs, issue template, publish-helper message, research index and AI/IP/decision/handoff records.
+- Original historical audit retained in `docs/history/2026-10-21-urbanova-takeover.md`, explicitly former-name context. Original research report bodies and graph implementation/tests unchanged.
+- Regression: entry-screen test first failed against the old mobility entry, as expected, then passed against the scope overview. It ensures all three pillars are marked planned and mobility controls are absent by default. All five original route tests still pass.
+- Local validation: Node 22.23.3; `npm install` succeeded, `npm run check` exited 0 (typecheck, ESLint, six tests in two files, production build). Package and lockfile root/nested identity all equal `safelisting`. No dependency version changes. Existing audit: one moderate and two critical development findings; production-only audit zero.
+- Browser: title and three planned labels verified; no horizontal overflow at 340/390/1440 px; keyboard entry and return transfer focus correctly; legacy mobile menu and barrier resolution retain resident route change from 773 m to 550 m. Home anchor works. Desktop/phone full-page screenshots visually inspected. Only observed console error: pre-existing missing favicon 404. Screen-reader, clipboard and live integrations not tested.
+- Text/diff checks: remaining former-name references are limited to labelled history/rename records. Original research bodies, routing implementation/tests, generic Vite deployment config and CI configuration unchanged. Package version diff contains only the root package-name changes.
+- Rebrand commit: `0088ca4`; pushed with clean tracking branch. [PR #1](https://github.com/IrtizaAziz/safelisting/pull/1) targets `main`. Code/documentation review found no important issues; AI/IP/handoff completion items were addressed. Initial GitHub quality run [39619654530](https://github.com/IrtizaAziz/safelisting/actions/runs/39619654530) was in progress when recorded. Merge is authorized only after passing checks and any required reviews; final merge/main CI state is available on the PR and in the completion report. This entry does not claim an unobserved CI result.
+- No global agent configuration, hosting, deployment, backend, model or dependency-major upgrade.
 
-## Next action
-1. Review this verification audit and prioritize dependency advisory remediation before extending the demo. Re-run the full check after any dependency change.
-2. Repair radio-group keyboard behavior and junction destination consistency in a short-lived branch; add meaningful regression coverage.
-3. Verify OpenDesign daemon connectivity and Antigravity configuration using this same repository.
-4. Obtain the actual organizer briefing; confirm deadline time, deck/file rules, and team IP review. Team chooses concept and records it in `docs/DECISIONS.md`.
+## Interoperability
+One shared `AGENTS.md` and `DESIGN.md`; matching Codex handover and Antigravity rules. OpenDesign exports stay in Git. Runtime integrations are not assumed: prior audit found OpenDesign CLI 0.10.0 but daemon unreachable; Antigravity runtime/config unverified. No reconfiguration performed for branding.
 
-## Codex takeover verification — 21 October 2026
+## Known pre-existing issues
+Development test-toolchain advisories were previously one moderate and two critical package findings in Vitest/mocker/tinypool; production-only audit previously zero. Recheck current audit; no forced major upgrade in rename scope.
+Legacy UI retains known radio arrow-key, junction/select, zero-trip shade, mobile disclosure/focus and favicon limitations. These do not establish product verification. External fonts remain a runtime request. Official briefing details and full IP review remain unresolved.
 
-- **Starting state:** folder was not a Git repository; `git status`, `git log -5 --oneline`, and `git remote -v` each failed with "not a git repository". Existing files were preserved. No prior branch/history existed locally.
-- **Repository:** authenticated GitHub account `IrtizaAziz`; initial `gh repo view urbanova` could not resolve a repository. User replied "new repo". Created `IrtizaAziz/urbanova` with `--private`, initialized local `main`, and configured `origin`. `gh repo view ... --json nameWithOwner,isPrivate,url` confirmed private visibility. This initial bootstrap uses `main`; future changes require short-lived branches and review.
-- **Commit/push:** initial foundation commit `e24d5b3` was successfully pushed to `origin/main`; local branch was clean and tracking `origin/main`. GitHub Actions run [39496341192](https://github.com/IrtizaAziz/urbanova/actions/runs/39496341192) was queued when checked; no CI pass claimed. This subsequent documentation commit records the publish result. Resolve current HEAD with `git log -1 --oneline` and check current CI before switching agents.
-- **Files changed:** generated `package-lock.json`; updated `docs/HANDOFF.md`, `docs/AI_USAGE.md`, `docs/IP_REGISTER.md`, `docs/SUBMISSION_CHECKLIST.md`. All other starter files are unchanged and included in the initial repository commit. Browser outputs are local `.playwright-mcp/` files excluded through `.git/info/exclude`.
-- **Runtime:** machine default is Node 24.15.0 / npm 11.12.1. Verification used a temporary Node 22.23.3 and npm 10 environment via `npx --yes --package=node@22 --package=npm@10 --call "..."`; global runtime unchanged. CI already selects Node 22; package engine range remains broader.
-- **Install:** wrapper command `node --version && npm install` succeeded: 211 packages installed, lockfile generated. npm reported three advisories.
-- **Checks:** wrapper command `node --version && npm run check` exited 0: TypeScript, ESLint, Vitest (one file, five tests), Vite production build. Build: 256.92 kB JS / 79.29 kB gzip, 16.10 kB CSS / 4.49 kB gzip.
-- **Security audit:** `npm audit --json` reports one moderate and two critical package findings in the development test chain (`@vitest/mocker`, `tinypool`, `vitest`). npm's proposed fix is a major Vitest upgrade. No forced upgrade performed during baseline audit. `npm audit --omit=dev --json` reports zero production advisories at audit time. This does not constitute a complete security review.
-- **Browser:** started `npm run dev -- --host 127.0.0.1` under Node 22 at `http://127.0.0.1:5173/`. Playwright exercised the live UI: accessible 773 m; shortest 550 m; comfort 823 m / 72% illustrative shade. Operator resolve updates resident route to 550 m; reopening restores 773 m. Enter activates a focused map destination; same-origin/destination gives 0 m. Research screen and mobile menu navigation work. No horizontal overflow at 340, 390, or 1440 px. Full-page screenshots at 390 and 1440 px were visually inspected. Fictional/demo labels remain visible. Only console error observed: missing `/favicon.ico` (404).
-- **UX gaps:** custom radio buttons work with Tab/Space but do not implement expected arrow-key radio navigation. Map allows junction destinations (`square`, `crossing`) that are omitted from destination select options. Identical origin/destination shows 100% shade despite no travel. Mobile hides the explicit NOT GPS badge while retaining FICTIONAL/DEMO labels. SVG focus styling and screen-reader behavior need a dedicated accessibility pass; no accessibility certification claimed.
-- **Test limits:** test titled "handles identical destinations and disconnected cases" only asserts identical destinations. No disconnected graph, UI regression, clipboard or screen-reader test was performed. Barrier flow is an operator toggle affecting a resident route; there is no resident report intake, persistence, or field validation.
-- **Portability:** canonical AGENTS/DESIGN and Antigravity rules exist. Installed OpenDesign package version is 0.10.0. `od --version` is unsupported; `od mcp --help` documents the integration commands. `od mcp install codex --print` and `od mcp install antigravity --print` verified command availability without altering global config. OpenDesign MCP `get_active_context` failed to reach the daemon at 127.0.0.1:7456. Antigravity runtime/configuration not verified. Do not create a second repository or assume native project linkage from MCP tool presence.
-- **Compliance:** official competition page confirms 23 October 2026 proposal date; official T&C clauses 11–14 verified and linked in the working compliance registers. Actual briefing unavailable; exact time, slide count, appendices, mandatory components, upload format and naming remain unverified. Research reports remain draft evidence leads.
-- **Deployment:** none. Vercel notes/config exist, but no preview approval, deployment, URL or end-to-end deployment verification.
-- **Exact next task:** review the audit, then remediate development dependency advisories in `codex/feature-test-tooling`, preserving Node 22 support and running `npm run check` plus `npm audit`. After that, address the keyboard/junction UI issues with focused regression checks. Obtain actual briefing and team concept approval in parallel with human planning.
+## Exact next task
+Obtain the detailed SafeListing Sections 01–09 source research, then agree a bounded synthetic ListingAuth lifecycle and tenant-result contract. Implement deterministic expiry, amendment/revocation and unknown states with tests and free account-free tenant access, before AI extraction or live integrations.
 
-## Handoff template (update every session)
-- Date/time + agent:
-- Branch / commit:
-- Files modified:
-- What works:
-- Validation performed:
-- Known failures / caveats:
-- Next small task:
+## Historical evidence
+See `docs/history/2026-10-21-urbanova-takeover.md` for the original bootstrap audit. It describes the former name and earlier concept-neutral stage; it is not the current product plan.
