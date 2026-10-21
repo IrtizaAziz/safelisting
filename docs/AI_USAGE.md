@@ -9,3 +9,9 @@ Official T&C clause 13.1 requires disclosure of material AI use. Clauses 13.2–
 | 2026-10-21 | OpenAI Codex | Repository takeover audit; dependency installation and lockfile generation; browser verification; compliance source checks and handoff documentation; private GitHub bootstrap | Node 22.23.3 check passed (typecheck, lint, five tests, production build). Browser verified simulated route preferences, operator resolution/reopening, map keyboard activation and mobile navigation. Team review pending; dependency advisories remain. No concept selected or UI rewritten. |
 
 Update for every major model output, design render, image, code change, research derivation or pitch asset used materially in the submission.
+
+## SafeListing rebrand — 21 October 2026
+
+OpenAI Codex implemented the user-approved rename of the existing private repository, updated product/package/UI metadata and shared engineering/design documentation, isolated the mobility screen as a legacy reference, and added a scope regression test. No rental verification, signing, AI extraction, real properties or live integrations were implemented. Original research and former-name audit history were preserved.
+
+Validation: Node 22.23.3, `npm install`, and `npm run check` passed typecheck, lint, six tests and production build. The new entry-screen test first failed against the former entry, then passed. Browser checks covered product title, three planned labels, 340/390/1440 px layouts, keyboard entry/return focus and the preserved legacy barrier route update. Human team review of product content and missing Sections 01–09 sources remains required. PR/CI outcome is tracked in the final handoff and GitHub.

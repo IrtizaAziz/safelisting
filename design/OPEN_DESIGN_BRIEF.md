@@ -1,17 +1,13 @@
-# Ready-to-paste OpenDesign brief (concept exploration)
+# SafeListing — OpenDesign brief
 
-Read `DESIGN.md`, `AGENTS.md`, and `docs/DECISIONS.md` before designing. Do not select a final PEOPLE concept for the team.
+Read root `AGENTS.md`, `DESIGN.md`, decisions and handoff. Work in the same private repository: https://github.com/IrtizaAziz/safelisting. Do not create an agent-specific repository.
 
-Create an original, high-fidelity interface system for "Urbanova", a Sime Darby Property University Hackathon 2026 PEOPLE-track prototype foundation. Urbanova is the working workspace name; the final PEOPLE solution concept is not yet selected. Design complementary experiences for (a) a township resident using a mobile device and (b) a township operator using a desktop console. Themes to accommodate: inclusive journeys, healthy mobility, safe routes, operator decisions and measurable improvements.
+**SafeListing — AI-Powered Rental Trust & Property Passport**. Sime Darby Property University Hackathon 2026; PEOPLE, Safety & Security / Digital Living. Proposed SDP App rental-trust extension, separate free account-free tenant verification; not a marketplace or an approved integration.
 
-Visual direction: editorial, premium, trustworthy urban innovation. Deep green #101E21, lively accent #B9F18A, leafy #358963, white/cream backgrounds, Manrope/DM Sans or close accessible alternatives, careful typography, whitespace and measured motion. Do not clone Sime Darby Property's existing app or logos.
+For an explicitly approved future design task: ListingAuth covers issuer-reviewed signed property-specific authorisations with expiry, amendment and revocation; AI TermsGuard extracts untrusted claims before deterministic comparison with currently authorised terms; HomeLedger Lite presents selected facts, provenance and controlled disclosure. These are currently planned. StopLoss997 remains future roadmap only. Do not imply completed verification through working-looking placeholder controls.
 
-Include:
-- Resident journey planning, destination picking, clearly accessible controls, route explanation, empty/error/loading states.
-- Operator observation queue, evidence review, intervention simulation and before/after detail view.
-- A consistent component library: buttons, cards, headers, data badges, form controls, map panel and charts.
-- At least one polished desktop dashboard and one mobile resident flow.
-- Interaction clarity: prototype should show a click/tap → visible state change. No fake live connections.
-- Place conspicuous `DEMO / SIMULATED` labels on made-up maps, metrics, incidents, and routes.
+Preserve evergreen/verdant/pale canvas and Manrope/DM Sans. Make provenance, unknown states, expiry and revocation legible on phone and desktop. Tenant basic verification remains independently accessible, free and account-free. No speculative official SDP branding.
 
-Deliver assets/exportable source files into `design/` or actual reusable `src/components/` in this Git repository, not only an isolated OpenDesign session. If a code artifact replaces an existing React component, document the integration approach first. Respect the canonical `DESIGN.md` and existing app functionality. End by updating `docs/HANDOFF.md`.
+All prototype properties, identities and issuer decisions are synthetic. Current legal letting authority is not actually verified. No production SDP API or land-registry integration exists. Signatures prove issuer-statement integrity, not ownership; listing validity does not prove transaction/payee safety. AI extracts untrusted claims; deterministic logic evaluates them against trusted records. HomeLedger Lite is not complete condition certification.
+
+Keep `src/legacy/MobilityDemo.tsx` distinct; it does not implement these pillars. Detailed SafeListing Sections 01–09 research is missing; obtain sources rather than invent contents. Export reusable designs/source into `design/` or approved React modules. Document integration before replacement; record material AI/asset use and handoff. No deployment or global agent changes for the rebrand.

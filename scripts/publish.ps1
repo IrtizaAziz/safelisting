@@ -13,7 +13,7 @@ git add .
 if ($LASTEXITCODE -ne 0) { throw 'git add failed' }
 git diff --cached --quiet
 if ($LASTEXITCODE -ne 0) {
-  git commit -m 'feat: initial PEOPLE hackathon prototype foundation'
+  git commit -m 'chore: publish SafeListing reviewed changes'
   if ($LASTEXITCODE -ne 0) { throw 'git commit failed — check git user.name and user.email' }
 }
 $existing = git remote get-url origin 2>$null
@@ -22,4 +22,4 @@ if ($LASTEXITCODE -eq 0) {
 } else { git remote add origin $RepoUrl }
 git push -u origin main
 if ($LASTEXITCODE -ne 0) { throw 'Push failed; check GitHub authentication and repository permissions.' }
-Write-Host 'Published foundation to private GitHub repository. Verify visibility and GitHub Actions.'
+Write-Host 'Pushed changes. Verify SafeListing repository identity, private visibility and GitHub Actions.'
