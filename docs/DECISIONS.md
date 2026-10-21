@@ -33,3 +33,8 @@ Former name: Urbanova. Entries below preserve the original rationale; superseded
 - Actual briefing: exact deadline time, compulsory components, slide/appendix and file rules.
 - Team roles, collaborators, branch protection and complete rights/AI review.
 - Any future backend, authentication or deployment requires a separate approved task.
+
+## Master design finalisation — 22 October 2026 MYT
+- Finalised design/MASTER_DESIGN.md and root DESIGN.md without changing the selected visual system. Separate simulated operations, fictional test-data/authority disclosures and genuinely implemented production copy. Real cryptographic checks do not legally validate a fictional authority fixture.
+- Confirmed four class-B measured official-web brand accents: #D71920, #F15A22, #F58220, #FCAF17. Master is the single visual authority; semantic field-MATCH green is intentional, with no legacy evergreen branding direction.
+- Documentation-only commit on codex/safelisting-master-design: master, root pointer, validation report and isolated finalisation log entries. Prior prototype/setup work excluded. No UI screens authorised or generated.

@@ -37,3 +37,9 @@ Obtain the detailed SafeListing Sections 01–09 source research, then agree a b
 
 ## Historical evidence
 See `docs/history/2026-10-21-urbanova-takeover.md` for the original bootstrap audit. It describes the former name and earlier concept-neutral stage; it is not the current product plan.
+
+## Master design finalisation — 22 October 2026 MYT
+- Finalised design/MASTER_DESIGN.md, root DESIGN.md and design/MASTER_DESIGN_VALIDATION.json. Core visual system unchanged. Context-specific preview/fictional-data/production wording and four measured-web accents are explicit.
+- Branch codex/safelisting-master-design; documentation-only commit/push authorised by user. Commit includes the three authority/evidence files plus isolated finalisation entries in AI_USAGE.md, DECISIONS.md and HANDOFF.md. Earlier staged prototypes and unrelated setup edits remain outside this commit. Resolve the exact commit with git log on this branch; no merge performed.
+- Validation: 114 contrast checks passed; all 21 sections retained; 26 protected hashes preserved; no legacy-brand HEX directive in root/master. Prior Node 22.23.3 npm run check passed; not rerun for documentation wording. No screens generated.
+- Remaining: rendered usability/visual acceptance after an authorised UI task, symbol artwork, optional dark delivery/page composition, and actual legal-authority/production-service evidence. Exact next task: await a separate instruction before creating UI screens; use the finalised master as the sole visual authority.

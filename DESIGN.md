@@ -1,20 +1,17 @@
-# SafeListing — design contract
+# SafeListing — design authority
 
-## Identity and intent
-**SafeListing — AI-Powered Rental Trust & Property Passport**. PEOPLE / Safety & Security / Digital Living, Sime Darby Property University Hackathon 2026. Proposed SDP App rental-trust extension with separate, free, account-free basic tenant verification; not a marketplace or an approved integration.
+The current visual source of truth is [design/MASTER_DESIGN.md](design/MASTER_DESIGN.md), version 1.0, 22 October 2026 MYT. It defines the new independent SafeListing identity, measured SDP branding references, tokens, component states, accessibility, responsive and interaction rules.
 
-Distinguish trusted issuer records, untrusted extracted claims, selected property facts and unresolved information. This rebrand provides a scope/status overview, not working rental verification. ListingAuth, AI TermsGuard and HomeLedger Lite are planned until implemented. StopLoss997 is future roadmap only.
+All earlier SafeListing visual directions are superseded, including the evergreen palette, Manrope/DM Sans pairing and previous renter layouts. Preserve previous design documents, source, exports and canonical project artifacts as historical work. Do not use them as current visual specifications. The master is the finalised specification for the selected system; rendered visual/usability review remains a future gate. This task authorises documentation only; screen creation and UI implementation require a later task. Green is retained solely as the master's semantic field-MATCH colour, not as a legacy brand-palette instruction.
 
-## Visual language
-- Preserve deep evergreen `#101E21`, verdant `#358963`, pale canvas `#F8FAF6`, spring accent `#B9F18A`, informational cream `#F0F7E9`.
-- Manrope display and DM Sans UI with system fallbacks; editorial hierarchy, restrained surfaces, readable evidence labels and generous spacing.
-- Phone tenant and desktop issuer experiences should share reusable components when built. Current overview and legacy reference stay visibly separate.
-- Every control works or is honestly labelled planned. Semantic elements, keyboard focus, accessible names and responsive layouts. Respect reduced motion.
+## Functional and engineering boundaries
 
-## Product truth
-Synthetic properties, identities and issuer decisions only, labelled DEMO/SIMULATED. Current legal letting authority is not actually verified. No production SDP API or land-registry integration exists. A signature proves issuer-statement integrity, not legal ownership; valid records do not prove transaction/payee safety. AI extracts untrusted claims; deterministic logic evaluates them against trusted records. HomeLedger Lite is not complete property-condition certification; show provenance and controlled disclosure. Basic tenant verification stays independently accessible, free and account-free. No invented confidence or guaranteed-safe badges.
+Read `AGENTS.md`. `01_PRD.md`, `02_USER_FLOWS.md` and `04_SCREENS_INTERACTIONS.md` are immutable functional requirements and take precedence over visual guidance. SafeListing — AI-Powered Rental Listing Trust: PEOPLE / Safety & Security, Digital Living secondary; proposed rental-trust capability with separate free, account-free tenant verification. No approved SDP integration or rental marketplace is established.
 
-## Legacy reference and OpenDesign
-`src/legacy/MobilityDemo.tsx` preserves fictional routing/operator simulation, not rental functionality. Do not relabel routes/barriers as properties/authorisations. No real navigation or accessibility certification.
+Keep cryptographic record integrity, current issuer authorisation, legal letting authority evidence and per-claim findings distinct. No CURRENT record or matching claim establishes transaction safety, sender control or payment-recipient identity. Design previews identify simulated operations/results. Fictional test properties, identities and issuer authority decisions are disclosed as fictional even when real cryptographic or lifecycle operations run. Describe genuinely implemented checks and production results truthfully without unnecessary simulation labels. A signature over fictional authority data never means that data was independently legally verified. No fabricated SDP, land-registry, ownership, condition-certification or bank-verification claims. Apply the master's section 16 context-specific wording.
 
-Use this repository and canonical `AGENTS.md`; export reusable designs into `design/` or approved source, and document integration before replacement. Detailed SafeListing Sections 01–09 research is missing; do not invent it. No speculative official SDP logo or endorsement. Record assets, fonts, licences and material AI use. No global agent configuration changes are needed for a rebrand.
+AI/parser output is untrusted candidate data; deterministic comparison evaluates against an authoritative current record. Unavailable status fails closed. No secrets, private certificates, real PII or live API keys in Git or browser-visible values. HomeLedger is an optional limited provenance section; StopLoss997 remains roadmap only.
+
+Existing application: React 19, Vite, strict TypeScript. Preserve existing application/backend/dependencies, `src/legacy/MobilityDemo.tsx` and previous prototypes during documentation work. Legacy mobility is fictional reference, not rental functionality. No stack migration, deployment, infrastructure, authentication, payments or model integration is authorised by the master design system.
+
+Use one shared repository and one active writer. Preserve other contributors' work. Export future reusable designs into `design/`; record material AI use, asset provenance, decisions, validation and exact handoff task. Consult `docs/IP_REGISTER.md` and competition terms before including new assets/licences. Do not reconstruct missing research or treat historical mobility reports as SafeListing validation. No global agent configuration changes are needed.
