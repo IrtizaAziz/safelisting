@@ -38,3 +38,6 @@ Former name: Urbanova. Entries below preserve the original rationale; superseded
 - Finalised design/MASTER_DESIGN.md and root DESIGN.md without changing the selected visual system. Separate simulated operations, fictional test-data/authority disclosures and genuinely implemented production copy. Real cryptographic checks do not legally validate a fictional authority fixture.
 - Confirmed four class-B measured official-web brand accents: #D71920, #F15A22, #F58220, #FCAF17. Master is the single visual authority; semantic field-MATCH green is intentional, with no legacy evergreen branding direction.
 - Documentation-only commit on codex/safelisting-master-design: master, root pointer, validation report and isolated finalisation log entries. Prior prototype/setup work excluded. No UI screens authorised or generated.
+
+## Design reference alignment — 22 October 2026 MYT
+Root and nested DESIGN.md now both point to the finalised master and summarise its selected typography/four measured-web accents. The obsolete nested evergreen specification is preserved at design/history/2026-10-22-renter-design-checkpoint.md. No master-system change; historical prototypes remain intact.

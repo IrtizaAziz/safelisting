@@ -2,6 +2,8 @@
 
 The current visual source of truth is [design/MASTER_DESIGN.md](design/MASTER_DESIGN.md), version 1.0, 22 October 2026 MYT. It defines the new independent SafeListing identity, measured SDP branding references, tokens, component states, accessibility, responsive and interaction rules.
 
+Selected system: Plus Jakarta Sans; red `#D71920`, ember orange `#F15A22`, warm orange `#F58220` and gold `#FCAF17` (class-B measured official-web values). Use the master's semantic tokens and source classifications. The nested [design/DESIGN.md](design/DESIGN.md) is a matching reference, not a separate visual specification.
+
 All earlier SafeListing visual directions are superseded, including the evergreen palette, Manrope/DM Sans pairing and previous renter layouts. Preserve previous design documents, source, exports and canonical project artifacts as historical work. Do not use them as current visual specifications. The master is the finalised specification for the selected system; rendered visual/usability review remains a future gate. This task authorises documentation only; screen creation and UI implementation require a later task. Green is retained solely as the master's semantic field-MATCH colour, not as a legacy brand-palette instruction.
 
 ## Functional and engineering boundaries

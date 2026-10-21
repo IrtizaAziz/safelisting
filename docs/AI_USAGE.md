@@ -18,3 +18,6 @@ Validation: Node 22.23.3, `npm install`, and `npm run check` passed typecheck, l
 
 ## 22 October 2026 — master documentation finalisation
 OpenAI Codex reviewed the existing master and root pointer, made narrowly scoped wording/authority corrections, confirmed four measured-web brand accents from the recorded source evidence and refreshed the validation report. No regenerated design system, UI, assets, model integration or functional requirement changes. Real implemented checks are distinguished from simulated operations and fictional legal-authority data. Validation: 114 passing contrast checks and 26 protected-file hashes unchanged; existing application checks were not rerun for copy-only changes. Commit excludes earlier staged prototypes/setup work.
+
+## 22 October 2026 — design reference alignment
+Codex replaced the obsolete nested DESIGN.md with a master-aligned pointer, preserved its prior contents in design/history/2026-10-22-renter-design-checkpoint.md, and added the same system summary to the root pointer. Documentation-only correction; master and all protected source/requirement/export hashes unchanged. No screens, assets or dependencies created.
