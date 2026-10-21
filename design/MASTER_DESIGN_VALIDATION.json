@@ -2,7 +2,7 @@
   "date_myt": "2026-10-22",
   "task": "Finalised master design documentation; selected visual system unchanged",
   "master_version": "1.0",
-  "master_sha256": "0F241377CA3FA2361C2EBBFFEF3ECBF0B026AD26F7F276BE2AE3697F9BDA1E24",
+  "master_sha256": "4405DFE4E4750E6AD8D05D91BB1EB7BA634A565D05AED1C906487907421F39D5",
   "validation_scope": "Solid token contrast, document structure and preserved-file integrity; no rendered UI or backend certification",
   "method": "WCAG sRGB relative luminance; channel threshold 0.04045; ratio (lighter + 0.05)/(darker + 0.05); compare unrounded result",
   "checks": {
@@ -1062,5 +1062,6 @@
     "selected_visual_system_changed": false,
     "commit_scope": "Root pointer, master, validation report and isolated finalisation entries in AI/decision/handoff logs; prior staged prototypes excluded",
     "application_checks": "Previous documentation task: Node 22.23.3 npm run check passed; not rerun for copy-only finalisation"
-  }
+  },
+  "master_hash_scope": "UTF-8 Git blob with repository-normalised LF line endings"
 }
