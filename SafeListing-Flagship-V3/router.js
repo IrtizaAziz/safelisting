@@ -26,6 +26,7 @@ function paint() {
     frame.contentWindow.SLScrollTo(route.section || 'main');
     return;
   }
+  frame.contentWindow?.SLGrainientDispose?.();
   currentPage = route.page;
   const config = '<script>window.__SLRoute=' + JSON.stringify(route).replace(/</g, '\\u003c') + ';<\/script>';
   frame.onload = () => {
