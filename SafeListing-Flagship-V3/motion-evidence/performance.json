@@ -1,0 +1,60 @@
+{
+  "browser": "155.0.8059.85",
+  "cpuThrottle": 4,
+  "results": [
+    {
+      "width": 390,
+      "version": "before",
+      "metrics": {
+        "cls": 0,
+        "longTasks": [
+          408,
+          81
+        ]
+      },
+      "frameMean": 16.17999999999922,
+      "frameMax": 17.59999999999991
+    },
+    {
+      "width": 390,
+      "version": "after",
+      "metrics": {
+        "cls": 0,
+        "longTasks": [
+          403,
+          80
+        ]
+      },
+      "frameMean": 16.219999999999995,
+      "frameMax": 17.300000000000182
+    },
+    {
+      "width": 1440,
+      "version": "before",
+      "metrics": {
+        "cls": 0,
+        "longTasks": [
+          443,
+          109
+        ]
+      },
+      "frameMean": 16.316666666666666,
+      "frameMax": 17.600000000000364
+    },
+    {
+      "width": 1440,
+      "version": "after",
+      "metrics": {
+        "cls": 0,
+        "longTasks": [
+          503,
+          120
+        ]
+      },
+      "frameMean": 16.14833333333178,
+      "frameMax": 17.600000000000364
+    }
+  ],
+  "beforeBytes": 394071,
+  "afterBytes": 395892
+}

@@ -40,9 +40,14 @@ const evidence = process.env.SL_EVIDENCE_DIR || 'deployment-evidence';
       await overflow(width);
       await page.screenshot({ path: `${evidence}/home-${width}.png`, fullPage: true });
       if (!process.argv[2]) {
-        const deployed = await page.screenshot();
+        await page.emulateMedia({ reducedMotion: 'reduce' });
+        await page.waitForTimeout(100);
+        const deployed = await page.screenshot({ animations: 'disabled' });
         await open('/export');
-        assert.deepEqual(await page.screenshot(), deployed, `Approved homepage pixels at ${width}`);
+        fs.writeFileSync(evidence+'/parity-built.png',deployed);
+        const exported=await page.screenshot({animations:'disabled'});fs.writeFileSync(evidence+'/parity-export.png',exported);
+        assert(exported.equals(deployed), `Approved homepage pixels at ${width}`);
+        await page.emulateMedia({ reducedMotion: 'no-preference' });
         await open('/');
       }
       if (width <= 768) {
