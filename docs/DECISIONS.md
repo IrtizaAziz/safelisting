@@ -53,3 +53,7 @@ User screenshot identified missing issuer entry spacing. Restored card padding, 
 
 ## Flagship skill-driven refinement — 22 October 2026 MYT
 User approved refining deployment HEAD 1ad652d on codex/flagship-design-skills-refinement. Preserve static embedded pages, red/cream comparison language, master semantic colours and licensed font bytes. Selected compact phone record with expandable secondary details and native issuer view selector. Correct destination focus, local field errors, finding-state recognition and unknown payment framing. No backend, framework, production promotion or PR #4 merge. Separate preview and draft PR target codex/deploy-flagship-v3; user visual approval is the release gate.
+
+
+## Grainient preview - 23 October 2026 MYT
+User approved actual React Bits Grainient port, native WebGL2 and one hero instance. Source e12c22192ac7b4b452c5e2feb9b586d74765d696; original shader strings preserved. MIT + Commons Clause notice shipped; background IP/competition review remains open. Codex assisted adaptation, CSS, QA and documentation; no model API or new package. Node22 quality check and flagship build pass; lifecycle/public preview evidence and measured startup long-task limitation are in SafeListing-Flagship-V3/GRAINIENT_REPORT.md. Preview https://safelisting-flagship-v3-b5mlix22l-irtiza-aziz-s-projects.vercel.app; production dpl_FDQnCoW2Z8WTmJq9BStZMdWb3a1D unchanged. Branch codex/flagship-grainient; unrelated existing work/index preserved. Exact next task: user reviews preview/motion; no merge or production promotion until approved.

@@ -11,7 +11,7 @@ const evidence = process.env.SL_EVIDENCE_DIR || 'deployment-evidence';
     const file = pathname === '/export' ? 'safelisting-application.html' :
       ['/', '/issuer', '/verify'].includes(pathname) || pathname.startsWith('/verify/') ? 'dist/index.html' : 'dist' + pathname;
     if (!fs.existsSync(file) || !fs.statSync(file).isFile()) { res.writeHead(404).end(); return; }
-    res.setHeader('Content-Type', file.endsWith('.js') ? 'text/javascript' : file.endsWith('.woff2') ? 'font/woff2' : 'text/html');
+    res.setHeader('Content-Type', file.endsWith('.js') ? 'text/javascript' : file.endsWith('.css') ? 'text/css' : file.endsWith('.woff2') ? 'font/woff2' : 'text/html');
     res.end(fs.readFileSync(file));
   });
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
@@ -40,9 +40,13 @@ const evidence = process.env.SL_EVIDENCE_DIR || 'deployment-evidence';
       await overflow(width);
       await page.screenshot({ path: `${evidence}/home-${width}.png`, fullPage: true });
       if (!process.argv[2]) {
-        const deployed = await page.screenshot();
+        const snapshot = () => app().locator('body').evaluate(body => ['#hero-title','#reference-form','.hero-proof','.sl-global'].map(selector => {
+          const element = body.querySelector(selector), rect = element.getBoundingClientRect();
+          return { selector, text: element.textContent, bounds: [rect.x, rect.y, rect.width, rect.height] };
+        }));
+        const deployed = await snapshot();
         await open('/export');
-        assert.deepEqual(await page.screenshot(), deployed, `Approved homepage pixels at ${width}`);
+        assert.deepEqual(await snapshot(), deployed, `Homepage content and geometry at ${width}`);
         await open('/');
       }
       if (width <= 768) {

@@ -33,3 +33,7 @@ Codex used Ponytail and Impeccable layout guidance to diagnose and repair missin
 
 ## Flagship refinement — 22 October 2026 MYT
 OpenAI Codex assisted source refinement, browser QA and evidence/report authoring. Installed Impeccable, UI/UX Pro Max, Hue and Emil Design Eng documentation/workflows informed the changes; independent read-only visual/technical assessments and a fresh code review were performed. No new image, font, dataset, model or runtime dependency added. Existing synthetic records and unavailable-service boundaries retained. See SafeListing-Flagship-V3/DESIGN_REFINEMENT_REPORT.md for applied/rejected recommendations, executed checks and limitations.
+
+
+## Grainient preview - 23 October 2026 MYT
+User approved actual React Bits Grainient port, native WebGL2 and one hero instance. Source e12c22192ac7b4b452c5e2feb9b586d74765d696; original shader strings preserved. MIT + Commons Clause notice shipped; background IP/competition review remains open. Codex assisted adaptation, CSS, QA and documentation; no model API or new package. Node22 quality check and flagship build pass; lifecycle/public preview evidence and measured startup long-task limitation are in SafeListing-Flagship-V3/GRAINIENT_REPORT.md. Preview https://safelisting-flagship-v3-b5mlix22l-irtiza-aziz-s-projects.vercel.app; production dpl_FDQnCoW2Z8WTmJq9BStZMdWb3a1D unchanged. Branch codex/flagship-grainient; unrelated existing work/index preserved. Exact next task: user reviews preview/motion; no merge or production promotion until approved.

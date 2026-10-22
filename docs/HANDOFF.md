@@ -65,3 +65,7 @@ Branch codex/flagship-design-skills-refinement based on 1ad652d; task edits isol
 
 ### Refinement preview delivery
 Public preview https://safelisting-flagship-v3-8rpwrxtx2-irtiza-aziz-s-projects.vercel.app (dpl_HCRcMAEcMx6Xu65CRAmnperDwxrp), source commit 46197be; draft PR https://github.com/IrtizaAziz/safelisting/pull/5. Fresh unauthenticated public core six-width journeys and all 68 refinement checks pass. Production alias remains dpl_hVHv4MVQFDj5QA1qko41YSijYkiR; response hash unchanged. Report and evidence updated. Exact next task: user visual approval; do not promote or merge until authorised.
+
+
+## Grainient preview - 23 October 2026 MYT
+User approved actual React Bits Grainient port, native WebGL2 and one hero instance. Source e12c22192ac7b4b452c5e2feb9b586d74765d696; original shader strings preserved. MIT + Commons Clause notice shipped; background IP/competition review remains open. Codex assisted adaptation, CSS, QA and documentation; no model API or new package. Node22 quality check and flagship build pass; lifecycle/public preview evidence and measured startup long-task limitation are in SafeListing-Flagship-V3/GRAINIENT_REPORT.md. Preview https://safelisting-flagship-v3-b5mlix22l-irtiza-aziz-s-projects.vercel.app; production dpl_FDQnCoW2Z8WTmJq9BStZMdWb3a1D unchanged. Branch codex/flagship-grainient; unrelated existing work/index preserved. Exact next task: user reviews preview/motion; no merge or production promotion until approved.
