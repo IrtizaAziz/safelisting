@@ -69,3 +69,7 @@ Approved Dark Editorial heroes implemented from a8d8fc0; homepage Grainient reta
 
 ## Plain-language copy cleanup - 23 October 2026 MYT
 User requested removal of robotic metadata throughout the website. Preserved latest editorial hero refinements (5b351ff); removed redundant property/example caption, public lookup pseudo-label, decorative section captions and technical pipeline labels. Simplified comparison/issuer labels while preserving statuses, synthetic-data disclosure and unavailable-operation feedback. Humanizer skill used; Codex assisted copy editing and build/browser QA. No dependencies/functionality/production changes. Preview https://safelisting-flagship-v3-3ifqv8nv4-irtiza-aziz-s-projects.vercel.app; branch codex/plain-language-copy. Next: user visual review before merge/promotion.
+
+
+## Restore selected ember hero - 23 October 2026 MYT
+User requested previous hero/WebGL and headline colouring after editorial changes. Restored cbc7094 Grainient CSS and pre-editorial hero composition from a8d8fc0, retaining copy cleanup (no independent-verification caption, property example caption or public lookup label). Shader source unchanged. Issuer/verifier and timeline unchanged. Codex assisted focused restoration/build/browser inspection. Preview https://safelisting-flagship-v3-d1mo5fdpl-irtiza-aziz-s-projects.vercel.app; production unchanged. Next: user visual review before merge/promotion.
