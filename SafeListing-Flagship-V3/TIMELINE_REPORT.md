@@ -14,3 +14,7 @@ Publication is held for the complete source licence notice and GSAP controlling 
 
 ## Final local acceptance
 Node 22.23.4 root check passed typecheck/lint/all six tests/build. Static build passes. Deployment QA passes six widths with clean deep links, comparison/edit/copy/unknown/expired/issuer flows and no JS or asset errors. Extended timeline checks pass breakpoint resizing, short-height fallback, forward/reverse progress, live preference changes and blocked animation assets. CPU-throttled command-latency samples are in extended.json; these do not establish frame rate or physical-device performance. Mobile normal-motion rail follows scroll; reduced motion is static. Full assistive-technology and Safari/device acceptance remains open. No remote checks are claimed because publication is held.
+
+## Authorised preview — 23 October 2026 MYT
+User instructed proceed after the documented publication hold. Preview published with licence-verification gaps retained: https://safelisting-flagship-v3-2ck7tb8m4-irtiza-aziz-s-projects.vercel.app (dpl_3CAFUT2XL9NisGYQL2BVVZD1fGzb). This instruction supersedes the publication hold above; it does not establish licence clearance. Preview target only; no production promotion. Remote timeline matrix passes 10 cases. Draft PR #7 remains unmerged.
+

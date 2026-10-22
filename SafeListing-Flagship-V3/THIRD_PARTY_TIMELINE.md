@@ -7,3 +7,7 @@ Runtime: GSAP 3.15.0, ScrollTrigger and SplitText, installed from npm with packa
 PUBLICATION HOLD: do not deploy this adaptation until the complete component notice and GSAP terms are obtained and verified for this use. This follows the approved plan's explicit rights-verification gate. No production or preview deployment was made by this task.
 
 Original stock image and React/Tailwind implementation are not bundled. Source algorithm is adapted to static DOM/CSS, five milestones and responsive vertical fallback. Existing embedded Plus Jakarta Sans and its OFL notice are unchanged.
+
+## Authorised preview — 23 October 2026 MYT
+User instructed proceed after the documented publication hold. Preview published with licence-verification gaps retained: https://safelisting-flagship-v3-2ck7tb8m4-irtiza-aziz-s-projects.vercel.app (dpl_3CAFUT2XL9NisGYQL2BVVZD1fGzb). This instruction supersedes the publication hold above; it does not establish licence clearance. Preview target only; no production promotion. Remote timeline matrix passes 10 cases. Draft PR #7 remains unmerged.
+
