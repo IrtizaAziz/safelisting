@@ -53,3 +53,7 @@ User screenshot identified missing issuer entry spacing. Restored card padding, 
 
 ## Flagship skill-driven refinement — 22 October 2026 MYT
 User approved refining deployment HEAD 1ad652d on codex/flagship-design-skills-refinement. Preserve static embedded pages, red/cream comparison language, master semantic colours and licensed font bytes. Selected compact phone record with expandable secondary details and native issuer view selector. Correct destination focus, local field errors, finding-state recognition and unknown payment framing. No backend, framework, production promotion or PR #4 merge. Separate preview and draft PR target codex/deploy-flagship-v3; user visual approval is the release gate.
+
+
+## Signature motion — 22 October 2026 MYT
+DIVERGENCE motion uses CSS/SVG/JS, focused source excerpts, no WebGL, preview only. Existing tokens and illustrative trust boundaries retained.

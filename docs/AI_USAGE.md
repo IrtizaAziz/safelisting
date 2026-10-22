@@ -33,3 +33,7 @@ Codex used Ponytail and Impeccable layout guidance to diagnose and repair missin
 
 ## Flagship refinement — 22 October 2026 MYT
 OpenAI Codex assisted source refinement, browser QA and evidence/report authoring. Installed Impeccable, UI/UX Pro Max, Hue and Emil Design Eng documentation/workflows informed the changes; independent read-only visual/technical assessments and a fresh code review were performed. No new image, font, dataset, model or runtime dependency added. Existing synthetic records and unavailable-service boundaries retained. See SafeListing-Flagship-V3/DESIGN_REFINEMENT_REPORT.md for applied/rejected recommendations, executed checks and limitations.
+
+
+## Signature motion — 22 October 2026 MYT
+Codex assisted motion implementation, source excerpts, browser QA and documentation using Emil, Impeccable, UI/UX Pro Max and Hue. No new runtime dependencies or model inference.

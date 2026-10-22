@@ -65,3 +65,9 @@ Branch codex/flagship-design-skills-refinement based on 1ad652d; task edits isol
 
 ### Refinement preview delivery
 Public preview https://safelisting-flagship-v3-8rpwrxtx2-irtiza-aziz-s-projects.vercel.app (dpl_HCRcMAEcMx6Xu65CRAmnperDwxrp), source commit 46197be; draft PR https://github.com/IrtizaAziz/safelisting/pull/5. Fresh unauthenticated public core six-width journeys and all 68 refinement checks pass. Production alias remains dpl_hVHv4MVQFDj5QA1qko41YSijYkiR; response hash unchanged. Report and evidence updated. Exact next task: user visual approval; do not promote or merge until authorised.
+
+
+## Signature motion — 22 October 2026 MYT
+Branch codex/safelisting-signature-motion; implementation d318db9; original dirty checkout preserved in place. Root/build/core/refinement/motion checks passed locally. See MOTION_REPORT.md for performance limitations. Next: review separate preview; no merge or production promotion.
+
+Remote acceptance complete: preview dpl_9Tm64Ej7hqbYVt3HtgzSsA3bAVco passes all three browser suites. Production alias remains dpl_FDQnCoW2Z8WTmJq9BStZMdWb3a1D. Exact next task: human review of the motion preview and draft PR; no promotion or merge.

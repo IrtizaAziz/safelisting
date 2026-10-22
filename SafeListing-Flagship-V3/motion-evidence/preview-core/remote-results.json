@@ -1,0 +1,74 @@
+{
+  "base": "https://safelisting-flagship-v3-a8ivckynz-irtiza-aziz-s-projects.vercel.app",
+  "results": [
+    {
+      "width": 1440,
+      "navigation": true,
+      "referenceHandoff": true,
+      "comparison": true,
+      "copy": true,
+      "unknown": true,
+      "expired": true,
+      "issuer": true,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "navigation": true,
+      "referenceHandoff": true,
+      "comparison": true,
+      "copy": true,
+      "unknown": true,
+      "expired": true,
+      "issuer": true,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "navigation": true,
+      "referenceHandoff": true,
+      "comparison": true,
+      "copy": true,
+      "unknown": true,
+      "expired": true,
+      "issuer": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "navigation": true,
+      "referenceHandoff": true,
+      "comparison": true,
+      "copy": true,
+      "unknown": true,
+      "expired": true,
+      "issuer": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "navigation": true,
+      "referenceHandoff": true,
+      "comparison": true,
+      "copy": true,
+      "unknown": true,
+      "expired": true,
+      "issuer": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "navigation": true,
+      "referenceHandoff": true,
+      "comparison": true,
+      "copy": true,
+      "unknown": true,
+      "expired": true,
+      "issuer": true,
+      "overflow": false
+    }
+  ],
+  "walkthrough": "real-time play/pause/resume/completion/replay; single indicator",
+  "errors": [],
+  "failures": []
+}

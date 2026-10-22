@@ -30,3 +30,7 @@ SafeListing Sections 01–09 research is not in this repository and its contents
 
 ## Flagship V3 public frontend — 22 October 2026 MYT
 User-supplied SafeListing-Flagship-V3 connected HTML/CSS/JS/SVG published with existing illustrative data. No external imagery, new package, dataset or model added. Plus Jakarta Sans font bytes already embedded in the export are reused unchanged; SHA256 153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79 matches the supplied WOFF2. Supplied SIL OFL 1.1 copyright/licence retained at public /flagship-v3.2/assets/OFL.txt and source OFL.txt. No blanket project licence introduced; prior competition/IP review limitations remain.
+
+
+## Signature motion — 22 October 2026 MYT
+First-party CSS/JS/geometric SVG only; original font bytes/licence preserved. No new external asset, dataset or licence.

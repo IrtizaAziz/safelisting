@@ -19,3 +19,15 @@ Before screenshots are the unchanged e53bea4 baseline captured during planning; 
 Skills: Emil Design Eng informed timing, interruption and keyboard rules; Impeccable informed the focal sequence and rendered review; UI/UX Pro Max informed reduced-motion/performance checks; Hue preserved the established tokens and geometry. Generated replacement palettes/type were rejected. No assets or licence changes.
 
 Preview and draft PR links will be appended after remote acceptance. Production must remain unchanged. WebGL recommendation: excluded by user choice.
+
+## Remote acceptance
+Preview: https://safelisting-flagship-v3-a8ivckynz-irtiza-aziz-s-projects.vercel.app
+Deployment dpl_9Tm64Ej7hqbYVt3HtgzSsA3bAVco; runtime source d318db9. Remote motion matrix (12), core journeys (six widths plus real-time walkthrough), and all 68 refinement checks pass. No JavaScript/asset errors reported. Production alias inspection still resolves dpl_FDQnCoW2Z8WTmJq9BStZMdWb3a1D, the pre-task deployment.
+
+| View | Before | After |
+|---|---|---|
+| Desktop hero | [Before](motion-evidence/before/home-1440.png) | [After](motion-evidence/preview/home-1440-no-preference.png) |
+| Phone findings | [Before](motion-evidence/before/verify-390.png) | [After](motion-evidence/preview/verify-390-no-preference.png) |
+| Issuer | [Before](motion-evidence/before/issuer-1440.png) | [After](motion-evidence/preview/issuer-1440-no-preference.png) |
+
+Note: operational captures may include an intermediate existing navigation colour transition. Before/after issuer captures represent different inspected tasks, rather than pixel-equivalent states. Physical-device and screen-reader review remain recommended before promotion.
