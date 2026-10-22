@@ -1,6 +1,6 @@
 # Direct issuer workspace entry
 
-Preview: https://safelisting-flagship-v3-i2uypc9v5-irtiza-aziz-s-projects.vercel.app
+Preview: https://safelisting-flagship-v3-cbcrx28i2-irtiza-aziz-s-projects.vercel.app
 
 Base: codex/ember-timeline / 30b7959, retaining the selected dark ember hero and latest PR7 timeline. Branch: codex/issuer-direct-entry.
 
@@ -15,3 +15,5 @@ Validation: Node22 full root quality check passes typecheck, lint, six tests and
 Production was not promoted and no PR was merged. Existing timeline licence-verification gaps remain documented in THIRD_PARTY_TIMELINE.md. Physical-device and screen-reader acceptance remains open; browser tests do not establish real issuer permissions. Next: user reviews this preview before production approval.
 
 Final refinement acceptance: all 68 checks pass on the preview.
+
+Final copy alignment: baseline heading was Every period / Every decision; changed to the explicitly requested Every listing / Accounted for, preserving typography/layout. Removed duplicate Example workspace prefix from operator metadata. Final preview retests this exact heading.

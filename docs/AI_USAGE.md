@@ -57,3 +57,7 @@ User rejected full-homepage extensions and selected the original dark ember prev
 
 ## Direct issuer workspace entry - 23 October 2026 MYT
 User requested deletion of issuer gate on latest ember/timeline refinement. Removed sample-mode/signedout gate, its HTML/CSS/function and canView guard; /issuer defaults to existing Overview and mode=sample links remain compatible. One Illustrative workspace banner; synthetic fixtures and unavailable signing/revocation feedback retained. No auth/backend/service added. Codex assisted focused issuer-payload change and six-width browser tests. Home/verifier/router/root React source unchanged. Node22 check, public journeys and new direct navigation matrix pass. Preview https://safelisting-flagship-v3-i2uypc9v5-irtiza-aziz-s-projects.vercel.app; report SafeListing-Flagship-V3/ISSUER_DIRECT_REPORT.md. Production unchanged. Next: user preview review before merge/promotion.
+
+
+## Direct issuer final copy/preview - 23 October 2026 MYT
+Aligned heading to requested Every listing. Accounted for. and retained one Illustrative workspace label. Final preview https://safelisting-flagship-v3-cbcrx28i2-irtiza-aziz-s-projects.vercel.app. PR12; no production promotion. Details and validation: SafeListing-Flagship-V3/ISSUER_DIRECT_REPORT.md. Next: user preview review.
