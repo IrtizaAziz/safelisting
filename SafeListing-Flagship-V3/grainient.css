@@ -39,3 +39,9 @@
 .hero .reference-form #check-submit{min-height:56px;width:100%;white-space:nowrap}
 .hero .hero-copy{max-width:65ch}.hero .hero-copy p{color:#E6D4CA;max-width:65ch}
 @media(max-width:639px){.hero .hero-bottom{gap:24px;margin-block:24px 32px}.hero .reference-form label{font-size:20px}.hero .reference-form .form-controls{grid-template-columns:1fr}.hero .reference-form .input-wrap,.hero .reference-form #check-submit{min-height:48px}.hero .reference-form input{min-height:46px}}
+/* Compact reference entry without reducing the controls' hit targets. */
+.hero .reference-form{padding:18px 24px}
+.hero .reference-form label{margin-bottom:10px;font-size:22px}
+.hero .reference-form .form-help{margin-top:8px;line-height:1.4}
+.hero .reference-form .sample-shortcut{margin-top:0;min-height:32px;line-height:1.4}
+@media(max-width:639px){.hero .reference-form{padding:14px 16px}.hero .reference-form label{font-size:20px;margin-bottom:10px}.hero .reference-form .form-controls{gap:8px}.hero .reference-form .sample-shortcut{min-height:44px}}
