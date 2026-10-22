@@ -82,3 +82,7 @@ User approved selective peach/gold accents and full-width form immediately benea
 
 ## Compact reference form - 23 October 2026 MYT
 User requested less space around Have a listing reference. Reduced panel vertical padding, label/help/link gaps and desktop label to 22px, preserving control hit targets and mobile 20px label. Build and public browser checks pass at 320/390/768/1440: form height reduced by 21-39px, no overflow, empty validation and reference handoff work. CSS only; no shader/functionality/production changes. Codex assisted styling and browser measurements. Preview https://safelisting-flagship-v3-f838tbn56-irtiza-aziz-s-projects.vercel.app. Next: user visual review before merge/promotion.
+
+
+## Restore earlier reference layout - 23 October 2026 MYT
+User rejected reference-form reformatting. Restored fd8e31c card CSS and supporting-copy-before-form DOM order, removing full-width/large-label and compact-spacing overrides. Retained dark panels and selective headline/subtitle accents. Build passes; no production changes. Preview https://safelisting-flagship-v3-996els6es-irtiza-aziz-s-projects.vercel.app. Codex assisted focused restoration. Next: user visual review before merge/promotion.
