@@ -111,3 +111,7 @@ No real record verification, legal-authority process, cryptographic checks, issu
 No physical-device, screen-reader, Safari/WebKit, mobile virtual-keyboard, comprehensive contrast certification or performance-under-throttling acceptance was performed. Existing multiple CSS generations remain; a wholesale cleanup was deliberately avoided. The mobile record still contains substantive evidence and therefore requires scrolling when read in full.
 
 The strongest gains are reduced phone task friction, clearer recognition of all findings, accurate payment framing and reliable issuer navigation context. The homepage and ledger retain their established identity. Human visual approval of the separate preview remains the release gate.
+
+## Production release follow-up
+After preview delivery, the user authorised production with 'push vercel'. The refinement is now published at https://safelisting-flagship-v3.vercel.app, deployment dpl_FDQnCoW2Z8WTmJq9BStZMdWb3a1D. Earlier production-unchanged statements describe the preview-delivery checkpoint. No PR merged.
+

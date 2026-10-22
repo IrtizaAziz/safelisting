@@ -56,3 +56,7 @@ Preview only: https://safelisting-flagship-v3-8rpwrxtx2-irtiza-aziz-s-projects.v
 The same linked project, folder upload, Node 22 build and runtime allowlist are retained. Local and public preview acceptance pass six widths (320/390/768/1024/1280/1440), including 68 refinement assertions and the existing ordinary-motion walkthrough tests. Reports/evidence are excluded from public output. Vercel appends its standard preview feedback script to the built HTML. Production alias and response remain unchanged from the issuer-spacing deployment `dpl_hVHv4MVQFDj5QA1qko41YSijYkiR`.
 
 Run `node refinement-qa.cjs [preview-url]` for the refinement matrix. Both QA scripts support `SL_EVIDENCE_DIR` to avoid overwriting prior evidence. See `DESIGN_REFINEMENT_REPORT.md` for before/after screenshots, skill provenance and acceptance limitations. Next step: user visual approval of this separate preview.
+
+## Refinement production release — 22 October 2026 MYT
+User authorised production publication with 'push vercel'. Published source 46197be (branch HEAD 8f85e6b includes evidence) to the existing project. Production https://safelisting-flagship-v3.vercel.app now targets dpl_FDQnCoW2Z8WTmJq9BStZMdWb3a1D. PR #5 remains draft; no PR merged. Production browser verification is recorded in the chat; prior preview-only notes above are historical.
+
