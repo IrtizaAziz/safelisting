@@ -21,3 +21,6 @@ assert(font, 'Export must contain its embedded font');
 await writeFile('dist/flagship-v3.2/assets/plus-jakarta-sans-latin-variable.woff2', Buffer.from(font[1], 'base64'));
 await copyFile('OFL.txt', 'dist/flagship-v3.2/assets/OFL.txt');
 console.log('Built three unchanged embedded pages, clean URL router and licensed local font.');
+await mkdir('dist/timeline-vendor', {recursive:true});
+for (const name of ['gsap','ScrollTrigger','SplitText']) await copyFile(`node_modules/gsap/dist/${name}.min.js`, `dist/timeline-vendor/${name}.min.js`);
+await copyFile('THIRD_PARTY_TIMELINE.md','dist/timeline-vendor/NOTICE.md');

@@ -71,3 +71,21 @@ Public preview https://safelisting-flagship-v3-8rpwrxtx2-irtiza-aziz-s-projects.
 Branch codex/safelisting-signature-motion; implementation d318db9; original dirty checkout preserved in place. Root/build/core/refinement/motion checks passed locally. See MOTION_REPORT.md for performance limitations. Next: review separate preview; no merge or production promotion.
 
 Remote acceptance complete: preview dpl_9Tm64Ej7hqbYVt3HtgzSsA3bAVco passes all three browser suites. Production alias remains dpl_FDQnCoW2Z8WTmJq9BStZMdWb3a1D. Exact next task: human review of the motion preview and draft PR; no promotion or merge.
+
+## Hyperiux homepage timeline — 23 October 2026 MYT
+Branch codex/flagship-hyperiux-timeline from 463dbb0 in isolated safelisting-timeline checkout. Replaced homepage slideshow with source-based GSAP timeline; preserved verifier/issuer/font bytes. Node22 root check, static build, six-width deployment QA, 68 refinement checks, 12 motion cases and focused/extended timeline QA pass. Material code/design/test assistance: OpenAI Codex. GSAP 3.15.0 pinned; source and runtime provenance plus publication hold in SafeListing-Flagship-V3/THIRD_PARTY_TIMELINE.md. No preview/production deployment: complete component notice and controlling GSAP terms remain unverified. Exact next task: obtain rights evidence, review local screenshots/private draft, then perform public preview acceptance. See TIMELINE_REPORT.md for limitations.
+
+## Authorised preview — 23 October 2026 MYT
+User instructed proceed after the documented publication hold. Preview published with licence-verification gaps retained: https://safelisting-flagship-v3-2ck7tb8m4-irtiza-aziz-s-projects.vercel.app (dpl_3CAFUT2XL9NisGYQL2BVVZD1fGzb). This instruction supersedes the publication hold above; it does not establish licence clearance. Preview target only; no production promotion. Remote timeline matrix passes 10 cases. Draft PR #7 remains unmerged.
+
+
+## Timeline viewport repair — 23 October 2026 MYT
+Fixed fixed-half-height layout clipping behind navigation and beyond viewport. Measure top/bottom content, reserve 92px header clearance and 28px bottom space, position rail accordingly; use one horizontal row when alternating rows cannot fit. Four desktop fit cases (1280x760/800, 1440x900/1000) pass locally and on preview. Ten viewport/preference cases and extended resize/reverse/short-height/asset-failure suite pass; protected verifier/issuer/font contract passes. Preview https://safelisting-flagship-v3-5t7c9hmf1-irtiza-aziz-s-projects.vercel.app, dpl_CBzNNrop9ycMcXKqa2GjM2sxHmxJ. Production unchanged; prior licence limitations remain. Next: user reviews viewport fit.
+
+
+## Alternating timeline restored — 23 October 2026 MYT
+Removed single-row desktop fallback. Retained alternating stems/rail and fitted typography, illustration spacing and content-based rail position with measured navigation clearance. Local four desktop fit/alternation cases, ten timeline cases, extended resize/reverse/reduced-motion/asset-failure checks and protected-page/font contract pass. Four desktop fit cases also pass on preview https://safelisting-flagship-v3-78ih40noj-irtiza-aziz-s-projects.vercel.app. Production unchanged; licence limitations remain. Full assistive-device and 200-percent zoom acceptance not separately certified. Next: user visual review.
+
+
+Stage 03 background adjustment, 23 October 2026 MYT: removed white record fill and switched record text/labels to readable light colours against timeline charcoal. Build/protected-content contract pass. Initial browser runner exhausted memory; rerun under Node22 recorded in tool output. Preview https://safelisting-flagship-v3-evtnydtlc-irtiza-aziz-s-projects.vercel.app. Production unchanged.
+

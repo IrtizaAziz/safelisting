@@ -34,3 +34,10 @@ User-supplied SafeListing-Flagship-V3 connected HTML/CSS/JS/SVG published with e
 
 ## Signature motion — 22 October 2026 MYT
 First-party CSS/JS/geometric SVG only; original font bytes/licence preserved. No new external asset, dataset or licence.
+
+## Hyperiux homepage timeline — 23 October 2026 MYT
+Branch codex/flagship-hyperiux-timeline from 463dbb0 in isolated safelisting-timeline checkout. Replaced homepage slideshow with source-based GSAP timeline; preserved verifier/issuer/font bytes. Node22 root check, static build, six-width deployment QA, 68 refinement checks, 12 motion cases and focused/extended timeline QA pass. Material code/design/test assistance: OpenAI Codex. GSAP 3.15.0 pinned; source and runtime provenance plus publication hold in SafeListing-Flagship-V3/THIRD_PARTY_TIMELINE.md. No preview/production deployment: complete component notice and controlling GSAP terms remain unverified. Exact next task: obtain rights evidence, review local screenshots/private draft, then perform public preview acceptance. See TIMELINE_REPORT.md for limitations.
+
+## Authorised preview — 23 October 2026 MYT
+User instructed proceed after the documented publication hold. Preview published with licence-verification gaps retained: https://safelisting-flagship-v3-2ck7tb8m4-irtiza-aziz-s-projects.vercel.app (dpl_3CAFUT2XL9NisGYQL2BVVZD1fGzb). This instruction supersedes the publication hold above; it does not establish licence clearance. Preview target only; no production promotion. Remote timeline matrix passes 10 cases. Draft PR #7 remains unmerged.
+

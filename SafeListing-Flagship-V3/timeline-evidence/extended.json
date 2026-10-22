@@ -1,0 +1,28 @@
+{
+  "resize": true,
+  "shortViewport": true,
+  "reverse": true,
+  "progress": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "preferenceChange": true,
+  "assetFailure": true,
+  "perf": [
+    {
+      "width": 390,
+      "cpuRate": 4,
+      "twentyScrollCommandsMs": 68,
+      "note": "Command latency, not animation FPS or a performance benchmark."
+    },
+    {
+      "width": 1440,
+      "cpuRate": 4,
+      "twentyScrollCommandsMs": 100,
+      "note": "Command latency, not animation FPS or a performance benchmark."
+    }
+  ]
+}

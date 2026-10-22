@@ -37,3 +37,14 @@ OpenAI Codex assisted source refinement, browser QA and evidence/report authorin
 
 ## Signature motion — 22 October 2026 MYT
 Codex assisted motion implementation, source excerpts, browser QA and documentation using Emil, Impeccable, UI/UX Pro Max and Hue. No new runtime dependencies or model inference.
+
+## Hyperiux homepage timeline — 23 October 2026 MYT
+Branch codex/flagship-hyperiux-timeline from 463dbb0 in isolated safelisting-timeline checkout. Replaced homepage slideshow with source-based GSAP timeline; preserved verifier/issuer/font bytes. Node22 root check, static build, six-width deployment QA, 68 refinement checks, 12 motion cases and focused/extended timeline QA pass. Material code/design/test assistance: OpenAI Codex. GSAP 3.15.0 pinned; source and runtime provenance plus publication hold in SafeListing-Flagship-V3/THIRD_PARTY_TIMELINE.md. No preview/production deployment: complete component notice and controlling GSAP terms remain unverified. Exact next task: obtain rights evidence, review local screenshots/private draft, then perform public preview acceptance. See TIMELINE_REPORT.md for limitations.
+
+## Timeline viewport repair — 23 October 2026 MYT
+Fixed fixed-half-height layout clipping behind navigation and beyond viewport. Measure top/bottom content, reserve 92px header clearance and 28px bottom space, position rail accordingly; use one horizontal row when alternating rows cannot fit. Four desktop fit cases (1280x760/800, 1440x900/1000) pass locally and on preview. Ten viewport/preference cases and extended resize/reverse/short-height/asset-failure suite pass; protected verifier/issuer/font contract passes. Preview https://safelisting-flagship-v3-5t7c9hmf1-irtiza-aziz-s-projects.vercel.app, dpl_CBzNNrop9ycMcXKqa2GjM2sxHmxJ. Production unchanged; prior licence limitations remain. Next: user reviews viewport fit.
+
+
+## Alternating timeline restored — 23 October 2026 MYT
+Removed single-row desktop fallback. Retained alternating stems/rail and fitted typography, illustration spacing and content-based rail position with measured navigation clearance. Local four desktop fit/alternation cases, ten timeline cases, extended resize/reverse/reduced-motion/asset-failure checks and protected-page/font contract pass. Four desktop fit cases also pass on preview https://safelisting-flagship-v3-78ih40noj-irtiza-aziz-s-projects.vercel.app. Production unchanged; licence limitations remain. Full assistive-device and 200-percent zoom acceptance not separately certified. Next: user visual review.
+
