@@ -70,3 +70,7 @@ User requested removal of robotic metadata throughout the website. Preserved lat
 
 ## Restore selected ember hero - 23 October 2026 MYT
 User requested previous hero/WebGL and headline colouring after editorial changes. Restored cbc7094 Grainient CSS and pre-editorial hero composition from a8d8fc0, retaining copy cleanup (no independent-verification caption, property example caption or public lookup label). Shader source unchanged. Issuer/verifier and timeline unchanged. Codex assisted focused restoration/build/browser inspection. Preview https://safelisting-flagship-v3-d1mo5fdpl-irtiza-aziz-s-projects.vercel.app; production unchanged. Next: user visual review before merge/promotion.
+
+
+## Ember hero card surfaces - 23 October 2026 MYT
+User approved subtle dark translucent reference/comparison panels over restored ember hero. Scoped CSS only; shader, headline, illustration, HTML/functionality and other workspaces unchanged. Added computed-style/contrast/focus/validation/route/CLS checks. Static build, six-width public journeys and 68 refinement checks pass; foreground/controls meet contrast bounds even with pure-white background behind panels. One canvas, sampled 16.7ms frames; initial CLS identical to baseline, zero post-font shift. Impeccable guidance and Codex used for CSS, visual QA and report; no new dependency/asset/licence. Preview https://safelisting-flagship-v3-i0lf108qh-irtiza-aziz-s-projects.vercel.app; report SafeListing-Flagship-V3/HERO_SURFACES_REPORT.md. Production unchanged. Next: user preview review before merge/promotion.

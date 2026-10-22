@@ -1,1 +1,29 @@
 .hero{position:relative;isolation:isolate;overflow:clip;display:flow-root;color:#fff9f6}.hero-content{position:relative;z-index:1}.sl-grainient{position:absolute;inset:0;pointer-events:none;overflow:hidden;background:linear-gradient(55deg,#120f17,#2a0f0a 25%,#9a3412 50%,#f97316 75%,#fed7aa)}.sl-grainient canvas{position:absolute;inset:0;width:100%;height:100%;display:block;opacity:0}.sl-grainient[data-state="animated"] canvas{opacity:1}.hero h1,.hero .headline-line.second,.hero-copy strong,.hero-copy p,.hero-copy .text-link,.hero-eyebrow{color:#fff9f6}.hero-copy{position:relative}.hero-copy::before{content:'';position:absolute;inset:-20px;z-index:-1;background:radial-gradient(ellipse,rgba(18,15,23,.45),transparent 72%);pointer-events:none}.hero .headline-line.second::before,.hero .headline-line.second::after{background:#fff9f6}.hero-topline{border-color:rgba(255,249,246,.3)!important}.hero .hero-note{color:#1f2326}.hero .reference-form,.hero .hero-proof,.hero .hero-signature{color:#1f2326}.hero-signature{background:rgba(255,249,246,.96)!important}.hero .registration{border-color:#fff9f6}.hero .registration::before,.hero .registration::after{background:#fff9f6}@media(prefers-reduced-motion:reduce){.sl-grainient canvas{display:none}}
+
+/* Hero controls share the ember field without changing the shader or headline. */
+.hero .reference-form,.hero .hero-proof{background:rgba(18,15,23,.82);color:#FFF9F6;border:1px solid rgba(255,249,246,.18);border-radius:12px;padding:24px;box-shadow:none}
+.hero .reference-form::before{display:none}
+.hero .reference-form label,.hero .hero-proof .eyebrow,.hero .hero-proof .proof-amount,.hero .hero-proof .proof-person strong{color:#FFF9F6}
+.hero .reference-form .form-help,.hero .hero-proof .proof-label,.hero .hero-proof .proof-person,.hero .hero-proof .proof-amount small,.hero .hero-proof .proof-bottom p{color:#E6D4CA}
+.hero .reference-form .input-wrap{background:#120F17;border:1px solid #8F7F76;color:#E6D4CA;box-shadow:none}
+.hero .reference-form input{color:#FFF9F6;background:transparent;caret-color:#FFF9F6;color-scheme:dark}
+.hero .reference-form input::placeholder{color:#E6D4CA;opacity:1}
+.hero .reference-form .input-wrap:focus-within{background:#120F17;outline:2px solid #FCAF17;outline-offset:3px;border-color:#FCAF17;box-shadow:none}
+.hero .reference-form .button-primary{background:#D71920;color:#FFF9F6;border:1px solid #F7A6A9;box-shadow:none}
+.hero .reference-form .button-primary:hover{background:#B9141B}
+.hero .reference-form .sample-shortcut,.hero .hero-proof .text-link{color:#FFF9F6;text-decoration:underline;text-underline-offset:4px}
+.hero .reference-form :is(button,a):focus-visible,.hero .hero-proof a:focus-visible{outline:2px solid #FCAF17;outline-offset:4px;box-shadow:none}
+.hero .reference-form .form-feedback{color:#FFF9F6;background:#120F17;border-color:#8F7F76}
+.hero .reference-form .form-feedback.error{color:#FFB4AB;background:#30171B;border-color:#FFB4AB}
+.hero .reference-form .input-wrap:has(input[aria-invalid="true"]){border-color:#FFB4AB}
+.hero .hero-proof .proof-top{border:0;border-bottom:1px solid rgba(255,249,246,.18);color:#FFF9F6}
+.hero .hero-proof .proof-grid,.hero .hero-proof .proof-half,.hero .hero-proof .proof-half.advertised{background:transparent;border:0;border-radius:0;box-shadow:none}
+.hero .hero-proof .proof-fault{background:transparent;border:0}
+.hero .hero-proof .proof-fault::before{background:rgba(255,249,246,.24)}
+.hero .hero-proof .proof-fault svg{color:#E6D5FF;background:#35233E;border-color:#B9A1DB;box-shadow:none}
+.hero .hero-proof .proof-bottom strong{color:#FFF9F6}
+.hero :is(.reference-form,.hero-proof) ::selection{background:#FCAF17;color:#120F17}
+@media(max-width:639px){.hero .reference-form,.hero .hero-proof{padding:16px}}
+@media(forced-colors:active){.hero .reference-form,.hero .hero-proof,.hero .reference-form .input-wrap,.hero .reference-form .button-primary{background:Canvas;color:CanvasText;border-color:CanvasText}.hero .reference-form input,.hero .reference-form label,.hero .hero-proof :is(span,p,strong,a){color:CanvasText}}
+
+.hero .reference-form .input-wrap{border-color:#A18F85}.hero .reference-form .input-wrap .od-icon{color:#E6D4CA}
