@@ -29,3 +29,5 @@
 .hero .reference-form .input-wrap{border-color:#A18F85}.hero .reference-form .input-wrap .od-icon{color:#E6D4CA}
 
 .hero .hero-peach{color:#FED7AA}.hero .hero-gold{color:#FFD580}
+/* Let reference entry sit directly on the ember field. */
+.hero .reference-form{background:transparent;border-color:transparent;box-shadow:none}
