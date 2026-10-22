@@ -223,7 +223,7 @@ const compile = (gl, type, source) => {
   return null;
 };
 
-const link = async (gl, fragmentSource) => {
+const link = (gl, fragmentSource) => {
   const vertex = compile(gl, gl.VERTEX_SHADER, VERTEX);
   const fragment = compile(gl, gl.FRAGMENT_SHADER, fragmentSource);
   const program = gl.createProgram();
@@ -233,8 +233,6 @@ const link = async (gl, fragmentSource) => {
   gl.linkProgram(program);
   gl.deleteShader(vertex);
   gl.deleteShader(fragment);
-  const parallel = gl.getExtension("KHR_parallel_shader_compile");
-  if (parallel) while (!gl.isContextLost() && !gl.getProgramParameter(program, parallel.COMPLETION_STATUS_KHR)) await new Promise(resolve => setTimeout(resolve, 8));
   if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
     gl.deleteProgram(program);
     return null;
@@ -251,7 +249,7 @@ const link = async (gl, fragmentSource) => {
 };
 
 
-async function render(host, settings, cancelled = () => false) {
+function render(host, settings) {
     const container = host;
     const canvas = document.createElement("canvas");
     host.append(canvas);
@@ -263,9 +261,8 @@ async function render(host, settings, cancelled = () => false) {
     });
     if (!gl) { canvas.remove(); return () => {}; }
 
-    await new Promise(resolve => setTimeout(resolve, 0));
-    const [field, composite] = await Promise.all([link(gl, FIELD), link(gl, COMPOSITE)]);
-    if (cancelled()) { if(field) gl.deleteProgram(field.program); if(composite) gl.deleteProgram(composite.program); canvas.remove(); return () => {}; }
+    const field = link(gl, FIELD);
+    const composite = link(gl, COMPOSITE);
     if (!field || !composite) { if(field) gl.deleteProgram(field.program); if(composite) gl.deleteProgram(composite.program); canvas.remove(); return () => {}; }
     const fu = field.uniforms;
     const cu = composite.uniforms;
@@ -326,8 +323,6 @@ async function render(host, settings, cancelled = () => false) {
     let visible = false;
     let quality = innerWidth < 1024 ? 1 : 1.5;
     let slow = 0;
-    let presented = 0;
-    const interval = 1000 / (innerWidth < 1024 ? 30 : 60);
 
     const syncPalette = () => {
       const s = settings;
@@ -394,7 +389,7 @@ async function render(host, settings, cancelled = () => false) {
       const s = settings;
       view.width = Math.max(1, container.clientWidth);
       view.height = Math.max(1, container.clientHeight);
-      view.ratio = Math.min(window.devicePixelRatio || 1, quality, 1.25, Math.sqrt(1500000 / (view.width * view.height)));
+      view.ratio = Math.min(window.devicePixelRatio || 1, quality);
       canvas.width = Math.max(1, Math.round(view.width * view.ratio));
       canvas.height = Math.max(1, Math.round(view.height * view.ratio));
       const width = Math.max(1, Math.round(canvas.width / 2));
@@ -472,8 +467,6 @@ async function render(host, settings, cancelled = () => false) {
     const frame = now => {
       raf = 0;
       if (!visible || document.hidden || gl.isContextLost()) return;
-      if (presented && now - presented < interval - 1) { raf = requestAnimationFrame(frame); return; }
-      presented = now;
       const s = settings;
       const dt = last ? clamp((now - last) / 1000, 0.001, 0.05) : 1 / 60;
       last = now;
@@ -546,18 +539,15 @@ async function render(host, settings, cancelled = () => false) {
 
     const resizeObserver = new ResizeObserver(resize);
     resizeObserver.observe(container);
-    const activeAreas = new Map();
     const intersection = new IntersectionObserver(entries => {
-      for (const entry of entries) activeAreas.set(entry.target, entry.isIntersecting);
-      visible = [...activeAreas.values()].some(Boolean);
+      visible = entries.some(entry => entry.isIntersecting);
       if (!visible) { cancelAnimationFrame(raf); raf=0; }
       if (visible) {
         last = 0;
         wake();
       }
     });
-    const areas = document.documentElement.dataset.grainientVariant === "B" ? document.querySelectorAll(".hero, #how-it-works") : [container];
-    areas.forEach(area => intersection.observe(area));
+    intersection.observe(container);
     window.addEventListener('pointermove', onPointerMove, { passive: true });
     window.addEventListener('pointerdown', onPointerDown, { passive: true });
     document.documentElement.addEventListener('pointerleave', onPointerLeave);
@@ -586,13 +576,12 @@ const defaults = {colors:['#120f17','#2a0f0a','#9a3412','#f97316','#fed7aa'],typ
 export function mountGrainient(host, overrides = {}) {
   const settings = {...defaults,...overrides};
   const media = matchMedia('(prefers-reduced-motion: reduce)');
-  let release = () => {}, disposed = false, epoch = 0;
-  const stop = () => { epoch++; host.querySelectorAll("canvas").forEach(canvas => canvas.getContext("webgl2")?.getExtension("WEBGL_lose_context")?.loseContext()); release(); release = () => {}; host.dataset.state = 'fallback'; };
-  const start = async () => {
+  let release = () => {}, disposed = false;
+  const stop = () => { release(); release = () => {}; host.dataset.state = 'fallback'; };
+  const start = () => {
     stop();
     if(disposed || media.matches || new URLSearchParams(window.__SLRoute?.search || location.search).get('background') === 'static') return;
-    const version = epoch;
-    try { const cleanup = await render(host, settings, () => disposed || version !== epoch) || (() => {}); if (version !== epoch || disposed) cleanup(); else release = cleanup; }
+    try { release = render(host, settings) || (() => {}); }
     catch (error) { host.dataset.state = 'fallback'; host.querySelectorAll('canvas').forEach(canvas => canvas.remove()); console.warn('Grainient unavailable:', error.message); }
   };
   const lost = event => { event.preventDefault(); host.dataset.state = 'fallback'; };
@@ -613,6 +602,6 @@ export function mountGrainient(host, overrides = {}) {
 }
 const host = document.querySelector('.sl-grainient');
 if(host) {
-  const boot = () => { if (!host.isConnected) return; window.SLGrainientDispose = mountGrainient(host).dispose; };
+  const boot = () => mountGrainient(host);
   if('requestIdleCallback' in window) requestIdleCallback(boot,{timeout:1000}); else setTimeout(boot,32);
 }

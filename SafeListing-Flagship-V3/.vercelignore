@@ -8,3 +8,6 @@
 !grainient.js
 !grainient.css
 !REACT-BITS-LICENSE.txt
+
+!package-lock.json
+!THIRD_PARTY_TIMELINE.md

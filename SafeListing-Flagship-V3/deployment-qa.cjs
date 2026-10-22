@@ -40,13 +40,14 @@ const evidence = process.env.SL_EVIDENCE_DIR || 'deployment-evidence';
       await overflow(width);
       await page.screenshot({ path: `${evidence}/home-${width}.png`, fullPage: true });
       if (!process.argv[2]) {
-        const snapshot = () => app().locator('body').evaluate(body => ['#hero-title','#reference-form','.hero-proof','.sl-global'].map(selector => {
-          const element = body.querySelector(selector), rect = element.getBoundingClientRect();
-          return { selector, text: element.textContent, bounds: [rect.x, rect.y, rect.width, rect.height] };
-        }));
-        const deployed = await snapshot();
+        await page.emulateMedia({ reducedMotion: 'reduce' });
+        await page.waitForTimeout(100);
+        const deployed = await page.screenshot({ animations: 'disabled' });
         await open('/export');
-        assert.deepEqual(await snapshot(), deployed, `Homepage content and geometry at ${width}`);
+        fs.writeFileSync(evidence+'/parity-built.png',deployed);
+        const exported=await page.screenshot({animations:'disabled'});fs.writeFileSync(evidence+'/parity-export.png',exported);
+        assert(exported.equals(deployed), `Approved homepage pixels at ${width}`);
+        await page.emulateMedia({ reducedMotion: 'no-preference' });
         await open('/');
       }
       if (width <= 768) {
@@ -117,35 +118,15 @@ const evidence = process.env.SL_EVIDENCE_DIR || 'deployment-evidence';
     }
     await page.setViewportSize({ width: 1440, height: 900 });
     await open('/');
-    assert.equal(await app().locator('.demo-progress').count(), 1);
-    const scale = () => app().locator('#demo-progress-fill').evaluate(e => new DOMMatrix(getComputedStyle(e).transform).a);
-    await app().locator('#replay-story').click();
-    assert.equal(await scale(), 0);
-    await app().locator('#play-story').click();
-    await page.waitForTimeout(500);
-    const first = await scale();
-    await page.waitForTimeout(300);
-    assert(await scale() > first);
-    await app().locator('#play-story').click();
-    const paused = await scale();
-    await page.waitForTimeout(300);
-    assert.equal(await scale(), paused);
-    await app().locator('#play-story').click();
-    await page.waitForTimeout(300);
-    assert(await scale() > paused);
-    await app().locator('#play-story').filter({ hasText: 'Replay walkthrough' }).waitFor({ timeout: 18000 });
-    assert.equal(await scale(), 1);
-    await app().locator('#replay-story').click();
-    assert.equal(await scale(), 0);
-    await app().locator('[data-step="3"]').click();
-    await app().locator('[data-claim="payment"]').click();
-    assert.match(await app().locator('#evidence-finding').innerText(), /not.*verified/i);
+    assert.equal(await app().locator('.sl-timeline-stage').count(), 5);
+    assert.equal(await app().locator('#play-story').count(), 0);
+    assert.match(await app().locator('.tl-comparison').innerText(), /NOT VERIFIED/);
     await open('/verify/%3Cscript%3E');
     await app().locator('#lookup-feedback').filter({ hasText: 'Live verification is unavailable' }).waitFor();
     assert.deepEqual(errors, []);
     assert.deepEqual(failures, []);
-    fs.writeFileSync(evidence + '/' + (process.argv[2] ? 'remote-results.json' : 'local-results.json'), JSON.stringify({ base, results, walkthrough: 'real-time play/pause/resume/completion/replay; single indicator', errors, failures }, null, 2));
-    console.log('PASS', base, results.length, 'viewport journeys; walkthrough; clean deep links and refresh; no JS or asset errors');
+    fs.writeFileSync(evidence + '/' + (process.argv[2] ? 'remote-results.json' : 'local-results.json'), JSON.stringify({ base, results, walkthrough: 'five timeline stages; obsolete controls absent', errors, failures }, null, 2));
+    console.log('PASS', base, results.length, 'viewport journeys; timeline; clean deep links and refresh; no JS or asset errors');
   } catch (e) { console.error({ errors, failures, url: page.url(), feedback: await app().locator('body').innerText().catch(() => '') }); throw e;
   } finally { await browser.close(); server.close(); }
 })().catch(e => { console.error(e); process.exitCode = 1; });
