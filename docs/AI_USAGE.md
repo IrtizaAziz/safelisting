@@ -37,3 +37,6 @@ OpenAI Codex assisted source refinement, browser QA and evidence/report authorin
 
 ## Signature motion — 22 October 2026 MYT
 Codex assisted motion implementation, source excerpts, browser QA and documentation using Emil, Impeccable, UI/UX Pro Max and Hue. No new runtime dependencies or model inference.
+
+## Hyperiux homepage timeline — 23 October 2026 MYT
+Branch codex/flagship-hyperiux-timeline from 463dbb0 in isolated safelisting-timeline checkout. Replaced homepage slideshow with source-based GSAP timeline; preserved verifier/issuer/font bytes. Node22 root check, static build, six-width deployment QA, 68 refinement checks, 12 motion cases and focused/extended timeline QA pass. Material code/design/test assistance: OpenAI Codex. GSAP 3.15.0 pinned; source and runtime provenance plus publication hold in SafeListing-Flagship-V3/THIRD_PARTY_TIMELINE.md. No preview/production deployment: complete component notice and controlling GSAP terms remain unverified. Exact next task: obtain rights evidence, review local screenshots/private draft, then perform public preview acceptance. See TIMELINE_REPORT.md for limitations.

@@ -1,0 +1,74 @@
+{
+  "base": "http://127.0.0.1:62208",
+  "results": [
+    {
+      "width": 1440,
+      "navigation": true,
+      "referenceHandoff": true,
+      "comparison": true,
+      "copy": true,
+      "unknown": true,
+      "expired": true,
+      "issuer": true,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "navigation": true,
+      "referenceHandoff": true,
+      "comparison": true,
+      "copy": true,
+      "unknown": true,
+      "expired": true,
+      "issuer": true,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "navigation": true,
+      "referenceHandoff": true,
+      "comparison": true,
+      "copy": true,
+      "unknown": true,
+      "expired": true,
+      "issuer": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "navigation": true,
+      "referenceHandoff": true,
+      "comparison": true,
+      "copy": true,
+      "unknown": true,
+      "expired": true,
+      "issuer": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "navigation": true,
+      "referenceHandoff": true,
+      "comparison": true,
+      "copy": true,
+      "unknown": true,
+      "expired": true,
+      "issuer": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "navigation": true,
+      "referenceHandoff": true,
+      "comparison": true,
+      "copy": true,
+      "unknown": true,
+      "expired": true,
+      "issuer": true,
+      "overflow": false
+    }
+  ],
+  "walkthrough": "five timeline stages; obsolete controls absent",
+  "errors": [],
+  "failures": []
+}

@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": { "node": "22.x" },
-  "scripts": { "build": "node build.mjs" }
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "gsap": "3.15.0"
+  }
 }

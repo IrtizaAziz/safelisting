@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "reducedMotion": "reduce"
+    },
+    {
+      "width": 320,
+      "reducedMotion": "no-preference"
+    },
+    {
+      "width": 390,
+      "reducedMotion": "reduce"
+    },
+    {
+      "width": 390,
+      "reducedMotion": "no-preference"
+    },
+    {
+      "width": 768,
+      "reducedMotion": "reduce"
+    },
+    {
+      "width": 768,
+      "reducedMotion": "no-preference"
+    },
+    {
+      "width": 1280,
+      "reducedMotion": "reduce"
+    },
+    {
+      "width": 1280,
+      "reducedMotion": "no-preference"
+    },
+    {
+      "width": 1440,
+      "reducedMotion": "reduce"
+    },
+    {
+      "width": 1440,
+      "reducedMotion": "no-preference"
+    }
+  ],
+  "errors": []
+}
