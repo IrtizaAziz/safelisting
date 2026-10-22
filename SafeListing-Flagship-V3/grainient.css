@@ -9,3 +9,4 @@ html[data-grainient-variant="B"] .problem,html[data-grainient-variant="B"] .mech
 html[data-grainient-variant] .section-heading .eyebrow,html[data-grainient-variant] .problem .eyebrow,html[data-grainient-variant] .mechanism-top .eyebrow,html[data-grainient-variant] .closing .eyebrow,html[data-grainient-variant] .sl-issuer-entry p,html[data-grainient-variant] .sl-issuer-entry small{color:#fff9f6}
 
 html[data-grainient-variant] .hero-copy::before{inset:-12px}
+html[data-grainient-variant] .problem h2 span{color:#1f2326!important}
