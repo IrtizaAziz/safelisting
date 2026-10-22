@@ -109,3 +109,7 @@ User requested less space around Have a listing reference. Reduced panel vertica
 
 ## Restore earlier reference layout - 23 October 2026 MYT
 User rejected reference-form reformatting. Restored fd8e31c card CSS and supporting-copy-before-form DOM order, removing full-width/large-label and compact-spacing overrides. Retained dark panels and selective headline/subtitle accents. Build passes; no production changes. Preview https://safelisting-flagship-v3-996els6es-irtiza-aziz-s-projects.vercel.app. Codex assisted focused restoration. Next: user visual review before merge/promotion.
+
+
+## Transparent reference form - 23 October 2026 MYT
+User requested listing form background blended fully into hero. Removed reference-form panel fill/border/shadow with transparent CSS; solid input/button and comparison panel unchanged. Codex assisted scoped CSS/build/browser checks. Preview https://safelisting-flagship-v3-ji8y1n675-irtiza-aziz-s-projects.vercel.app. Production unchanged; next: user visual review.
