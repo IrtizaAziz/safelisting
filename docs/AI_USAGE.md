@@ -29,3 +29,7 @@ OpenAI Codex inspected the user-provided OpenDesign export and authored a minima
 
 ## Issuer entry layout repair — 22 October 2026 MYT
 Codex used Ponytail and Impeccable layout guidance to diagnose and repair missing exported issuer-card CSS. Added actual rendered padding and mobile-stack assertions. Local and public preview journeys pass at 1440/1280/768/390/320px; desktop and compact mobile screenshots inspected. Root Node 22 check passes. Existing warm canvas detector warning retained under approved design. No asset/model/dependency added.
+
+
+## Flagship refinement — 22 October 2026 MYT
+OpenAI Codex assisted source refinement, browser QA and evidence/report authoring. Installed Impeccable, UI/UX Pro Max, Hue and Emil Design Eng documentation/workflows informed the changes; independent read-only visual/technical assessments and a fresh code review were performed. No new image, font, dataset, model or runtime dependency added. Existing synthetic records and unavailable-service boundaries retained. See SafeListing-Flagship-V3/DESIGN_REFINEMENT_REPORT.md for applied/rejected recommendations, executed checks and limitations.

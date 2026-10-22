@@ -1,0 +1,18 @@
+{
+  "home": {
+    "fontBytesUnchanged": true,
+    "scriptsBefore": 3,
+    "scriptsAfter": 3
+  },
+  "verify": {
+    "fontBytesUnchanged": true,
+    "scriptsBefore": 3,
+    "scriptsAfter": 3
+  },
+  "issuer": {
+    "fontBytesUnchanged": true,
+    "scriptsBefore": 3,
+    "scriptsAfter": 3
+  },
+  "sourceSha256": "bffa308aaaf276fccb46eecffaca62f996b1dfe81e4b4951afab2bd001c93678"
+}

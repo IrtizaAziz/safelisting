@@ -49,3 +49,7 @@ User explicitly authorised public frontend deployment of the approved OpenDesign
 
 ## Issuer entry layout repair — 22 October 2026 MYT
 User screenshot identified missing issuer entry spacing. Restored card padding, bounded width, text/action/disclosure spacing and mobile action stacking using existing tokens. Only embedded issuer CSS changed; homepage/verifier and issuer scripts are byte-identical to the prior commit. No service/content changes.
+
+
+## Flagship skill-driven refinement — 22 October 2026 MYT
+User approved refining deployment HEAD 1ad652d on codex/flagship-design-skills-refinement. Preserve static embedded pages, red/cream comparison language, master semantic colours and licensed font bytes. Selected compact phone record with expandable secondary details and native issuer view selector. Correct destination focus, local field errors, finding-state recognition and unknown payment framing. No backend, framework, production promotion or PR #4 merge. Separate preview and draft PR target codex/deploy-flagship-v3; user visual approval is the release gate.
