@@ -78,3 +78,7 @@ User approved subtle dark translucent reference/comparison panels over restored 
 
 ## Reference-first hero - 23 October 2026 MYT
 User approved selective peach/gold accents and full-width form immediately beneath headline, before explanatory copy. Existing shader/illustration/timeline/issuer/verifier retained. Scoped home markup/CSS. Codex/Impeccable assisted implementation/rendered QA. Build, six-width journeys and reference tests pass; frame samples and contrast limitations in HERO_REFERENCE_REPORT.md. Preview https://safelisting-flagship-v3-mw909q8fy-irtiza-aziz-s-projects.vercel.app. Production unchanged; next: user visual review before merge/promotion.
+
+
+## Compact reference form - 23 October 2026 MYT
+User requested less space around Have a listing reference. Reduced panel vertical padding, label/help/link gaps and desktop label to 22px, preserving control hit targets and mobile 20px label. Build and public browser checks pass at 320/390/768/1440: form height reduced by 21-39px, no overflow, empty validation and reference handoff work. CSS only; no shader/functionality/production changes. Codex assisted styling and browser measurements. Preview https://safelisting-flagship-v3-f838tbn56-irtiza-aziz-s-projects.vercel.app. Next: user visual review before merge/promotion.
