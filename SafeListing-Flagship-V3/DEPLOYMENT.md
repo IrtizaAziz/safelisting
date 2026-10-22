@@ -48,3 +48,11 @@ Next task: team review on physical phones and with assistive technology, then se
 
 ## Issuer entry layout repair — 22 October 2026 MYT
 Restored missing spacing on the issuer entry card: responsive inner padding, bounded 760px width, separate text/action/disclosure spacing, surface background and stacked mobile actions. Content and sample behaviour are unchanged. Added rendered padding/stack/overflow assertions and issuer-entry screenshots at all five QA widths. Copy QA now waits for asynchronous clipboard completion. Preview: https://safelisting-flagship-v3-fzikabxfj-irtiza-aziz-s-projects.vercel.app. Impeccable layout guidance used; detector warning for the existing warm canvas intentionally retained under the approved visual design. Root Node 22 check and local/preview Chrome journeys pass.
+
+## Skill-driven refinement preview — 22 October 2026 MYT
+
+Preview only: https://safelisting-flagship-v3-8rpwrxtx2-irtiza-aziz-s-projects.vercel.app · `dpl_HCRcMAEcMx6Xu65CRAmnperDwxrp` · source `46197be`. Draft PR #5 targets `codex/deploy-flagship-v3`; no merge or production promotion.
+
+The same linked project, folder upload, Node 22 build and runtime allowlist are retained. Local and public preview acceptance pass six widths (320/390/768/1024/1280/1440), including 68 refinement assertions and the existing ordinary-motion walkthrough tests. Reports/evidence are excluded from public output. Vercel appends its standard preview feedback script to the built HTML. Production alias and response remain unchanged from the issuer-spacing deployment `dpl_hVHv4MVQFDj5QA1qko41YSijYkiR`.
+
+Run `node refinement-qa.cjs [preview-url]` for the refinement matrix. Both QA scripts support `SL_EVIDENCE_DIR` to avoid overwriting prior evidence. See `DESIGN_REFINEMENT_REPORT.md` for before/after screenshots, skill provenance and acceptance limitations. Next step: user visual approval of this separate preview.

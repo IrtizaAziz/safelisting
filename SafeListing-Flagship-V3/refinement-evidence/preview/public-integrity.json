@@ -1,0 +1,53 @@
+{
+  "preview": "https://safelisting-flagship-v3-8rpwrxtx2-irtiza-aziz-s-projects.vercel.app",
+  "previewDeployment": "dpl_HCRcMAEcMx6Xu65CRAmnperDwxrp",
+  "productionDeployment": "dpl_hVHv4MVQFDj5QA1qko41YSijYkiR",
+  "productionUnchanged": true,
+  "previewMatchesBuildWithStandardToolbarSuffix": true,
+  "checks": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/verify/SL-2026-PJ-1208",
+      "status": 200
+    },
+    {
+      "route": "/issuer",
+      "status": 200
+    },
+    {
+      "route": "/router.js",
+      "status": 200
+    },
+    {
+      "route": "/flagship-v3.2/assets/plus-jakarta-sans-latin-variable.woff2",
+      "status": 200
+    },
+    {
+      "route": "/flagship-v3.2/assets/OFL.txt",
+      "status": 200
+    },
+    {
+      "route": "/package.json",
+      "status": 404
+    },
+    {
+      "route": "/safelisting-application.html",
+      "status": 404
+    },
+    {
+      "route": "/DESIGN_REFINEMENT_REPORT.md",
+      "status": 404
+    },
+    {
+      "route": "/.vercel/project.json",
+      "status": 404
+    },
+    {
+      "route": "/unrelated-path",
+      "status": 404
+    }
+  ]
+}

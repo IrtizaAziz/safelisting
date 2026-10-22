@@ -96,7 +96,11 @@ Run from this directory. `SL_EVIDENCE_DIR` selects an output directory for eithe
 
 ## 7. Deployment and review
 
-Preview URL and public validation will be recorded after the task commit and draft PR. Only the existing `safelisting-flagship-v3` project is in scope. No production promotion, production alias change, PR #4 merge, or other-project change is authorised.
+[Public preview](https://safelisting-flagship-v3-8rpwrxtx2-irtiza-aziz-s-projects.vercel.app) · deployment `dpl_HCRcMAEcMx6Xu65CRAmnperDwxrp` · source commit `46197be` · [draft PR #5](https://github.com/IrtizaAziz/safelisting/pull/5), targeting `codex/deploy-flagship-v3`.
+
+The preview passed both browser suites in fresh unauthenticated contexts: six core viewport journeys and all 68 refinement checks, including ordinary-motion walkthrough playback. Public screenshots of the homepage, findings and validation feedback were visually reviewed. [Refinement results](refinement-evidence/preview/results.json), [core journey results](refinement-evidence/preview-regression/remote-results.json) and [public integrity checks](refinement-evidence/preview/public-integrity.json) are retained.
+
+Public routes/font/licence return 200; source/configuration/report/unrelated paths return 404. The response contains the exact local build followed by Vercel's standard preview feedback script. Production HTML still hashes identically to the pre-edit baseline, and its alias still targets `dpl_hVHv4MVQFDj5QA1qko41YSijYkiR`. No production promotion, production alias change, PR #4 merge, or other-project change was performed.
 
 The Vercel connector returned not-found for the supplied project/team; the existing authenticated CLI resolved the correct linked project. Its folder upload preserves the existing six-file deployment allowlist. Design reports and evidence are not public runtime files.
 
