@@ -1,3 +1,4 @@
+window.__SLMotionSeen = new Set();
 const pages = JSON.parse(document.getElementById('application-pages').textContent);
 const frame = document.getElementById('application');
 let currentPage = '';
