@@ -86,3 +86,6 @@ Fixed fixed-half-height layout clipping behind navigation and beyond viewport. M
 ## Alternating timeline restored — 23 October 2026 MYT
 Removed single-row desktop fallback. Retained alternating stems/rail and fitted typography, illustration spacing and content-based rail position with measured navigation clearance. Local four desktop fit/alternation cases, ten timeline cases, extended resize/reverse/reduced-motion/asset-failure checks and protected-page/font contract pass. Four desktop fit cases also pass on preview https://safelisting-flagship-v3-78ih40noj-irtiza-aziz-s-projects.vercel.app. Production unchanged; licence limitations remain. Full assistive-device and 200-percent zoom acceptance not separately certified. Next: user visual review.
 
+
+Stage 03 background adjustment, 23 October 2026 MYT: removed white record fill and switched record text/labels to readable light colours against timeline charcoal. Build/protected-content contract pass. Initial browser runner exhausted memory; rerun under Node22 recorded in tool output. Preview https://safelisting-flagship-v3-evtnydtlc-irtiza-aziz-s-projects.vercel.app. Production unchanged.
+
