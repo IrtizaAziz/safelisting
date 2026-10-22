@@ -9,3 +9,5 @@ Static build, six-width public journeys and dedicated 320/390/768/1440 reference
 Gold label over worst-case translucent panel: 8.02:1. Desktop screenshot sample with target text hidden: peach headline glyph-area background minimum 3.98:1, gold subtitle 10.42:1, supporting paragraph 5.67:1. Glyph-area sample excludes the adjacent first headline line; the inline span's line box overlaps that line. These are sampled frames, not a guarantee over all possible shader animation states; no global dark overlay added.
 
 Production unchanged; no merge or promotion. Next: user visual review; physical device and comprehensive animation-wide contrast acceptance remain open.
+
+Refinement rerun passes all 68 checks; initial run hit the suite's 2s public navigation timeout.
