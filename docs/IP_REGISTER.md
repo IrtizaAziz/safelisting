@@ -26,3 +26,7 @@ Reviewed the [official T&C](https://www.simedarbyproperty.com/universityhackatho
 Product scope/name supplied by the user; overview, styling and documentation assisted by OpenAI Codex (see AI-use log). Uses existing Lucide icons, palette and font families; no official SDP logo, new dataset, model, image or dependency was added. No project licence was introduced. The fictional mobility graph remains unchanged under `src/lib/`, used only by the preserved legacy example.
 
 SafeListing Sections 01–09 research is not in this repository and its contents/rights have not been audited. The product name and proposed integration do not establish trademark clearance, partnership or SDP endorsement. No real property, identity, issuer, private certificate or tenant data is included. Third-party dependency/asset rights and competition IP review remain open; original historical records are retained.
+
+
+## Flagship V3 public frontend — 22 October 2026 MYT
+User-supplied SafeListing-Flagship-V3 connected HTML/CSS/JS/SVG published with existing illustrative data. No external imagery, new package, dataset or model added. Plus Jakarta Sans font bytes already embedded in the export are reused unchanged; SHA256 153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79 matches the supplied WOFF2. Supplied SIL OFL 1.1 copyright/licence retained at public /flagship-v3.2/assets/OFL.txt and source OFL.txt. No blanket project licence introduced; prior competition/IP review limitations remain.

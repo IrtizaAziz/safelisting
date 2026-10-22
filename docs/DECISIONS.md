@@ -41,3 +41,7 @@ Former name: Urbanova. Entries below preserve the original rationale; superseded
 
 ## Design reference alignment — 22 October 2026 MYT
 Root and nested DESIGN.md now both point to the finalised master and summarise its selected typography/four measured-web accents. The obsolete nested evergreen specification is preserved at design/history/2026-10-22-renter-design-checkpoint.md. No master-system change; historical prototypes remain intact.
+
+
+## Flagship V3 deployment — 22 October 2026 MYT
+User explicitly authorised public frontend deployment of the approved OpenDesign export. Selected its connected static application (all three views), preserving embedded page designs and adapting only the outer router to clean URLs. Separate Vercel project safelisting-flagship-v3 / prj_vDfxs97KPdn72RHoXhUtXaddwqVa; Other, Node 22.x, build npm run build, output dist. CLI uploads this export folder as root; Git autodeploy disconnected. Public frontend only, no new service/auth/database or real trust checks. Public preview passed before promotion; production https://safelisting-flagship-v3.vercel.app verified. Explicit rewrites leave private/unrelated paths at 404. See SafeListing-Flagship-V3/DEPLOYMENT.md.

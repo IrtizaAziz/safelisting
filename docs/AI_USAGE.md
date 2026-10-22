@@ -21,3 +21,7 @@ OpenAI Codex reviewed the existing master and root pointer, made narrowly scoped
 
 ## 22 October 2026 — design reference alignment
 Codex replaced the obsolete nested DESIGN.md with a master-aligned pointer, preserved its prior contents in design/history/2026-10-22-renter-design-checkpoint.md, and added the same system summary to the root pointer. Documentation-only correction; master and all protected source/requirement/export hashes unchanged. No screens, assets or dependencies created.
+
+
+## Flagship V3 deployment — 22 October 2026 MYT
+OpenAI Codex inspected the user-provided OpenDesign export and authored a minimal static build, clean-URL host router, Vercel configuration, browser QA and deployment notes. Ponytail skill applied; no redesign, new model, generated image, dataset or backend. Existing export pages, illustrative fixtures and authority disclosures retained. User authenticated Vercel; Codex executed dedicated project creation, preview deployment, promotion and unauthenticated production checks. Root Node 22 check, original verifier/issuer checks and local/preview/production Chrome journeys passed at 1440/1280/768/390/320px; local homepage pixel comparisons match the original. Physical-device/screen-reader acceptance remains open.
