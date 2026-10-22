@@ -1,6 +1,6 @@
 # Grainient integration — 23 October 2026 MYT
 
-Current full-hero preview: https://safelisting-flagship-v3-3h423x9xm-irtiza-aziz-s-projects.vercel.app
+Current ember preview: https://safelisting-flagship-v3-hdkfxxxe5-irtiza-aziz-s-projects.vercel.app
 
 Earlier measurements/configuration below describe the initial accent version; the revision entry supersedes placement and palette.
 
@@ -47,3 +47,13 @@ User rejected the small illustration accent and approved full hero coverage. Mov
 Canvas CSS dimensions at 1440/768/390 widths: 1440x1162, 768x1152, 390x1170. All frame interval medians 16.7ms. Repeated local input sample baseline/enhanced 18.1/15.0ms; CLS 0/0; long tasks 110ms baseline and 92/253ms enhanced. These are individual scheduling samples, not GPU benchmarks or speed improvement claims.
 
 Node22 full quality check, flagship build, six-width local journeys and 68 refinement checks pass. New QA asserts hero width equals viewport, layer height matches section and next section starts after it. Evidence: grainient-evidence/full-hero-preview (whole-hero PNGs, animated and fallback captures at three widths, video and results). Preview deployment dpl_A7Sz3gx8s2M5bVUCvjZd8L2rWJQ4. Production not promoted; PR #8 remains draft.
+
+
+## Reference palette and visible cursor correction - 23 October 2026 MYT
+Supersedes earlier light treatments. Restored original palette #120f17, #2a0f0a, #9a3412, #f97316, #fed7aa; speed 1, grain .08, contrast/saturation 1 and stir 1. Removed the cream overlay entirely. Exposed headline/copy is warm white with a restrained local dark scrim beneath body copy; navigation and solid form/comparison surfaces remain intact. No shader mathematics, API or dependency change.
+
+A live probe established that the earlier cursor path reached the shader but its strength was reduced to .35. The original QA merely moved a pointer and did not verify deformation. New grainient-interaction-qa.cjs isolates the renderer with speed 0 and static grain: disabled stirring changes zero pixels; restored stirring changes 190,133 of 480,000 pixels (channel delta sum greater than 3), mean channel difference 2.416, peak uniform .05, and decays to zero after 1.8s. Before/stir PNGs, recorded cursor video and results are in grainient-evidence/ember-interaction. This verifies pixel changes independent of ambient animation.
+
+Node22 full check (six tests), flagship build, six-width journeys, 68 refinement checks and public-preview lifecycle checks pass. Median frame interval 16.7ms at 1440/768/390; no overflow. Measured baseline/enhanced input fill 28.9/15.9ms, CLS 0/0; long tasks 186ms baseline, 116/292ms enhanced. These individual samples do not establish speed improvements or physical-device GPU performance. Current screenshots/fallback/video: grainient-evidence/ember-preview. Manual desktop/mobile rendered inspection confirms the dark-to-ember range and visible film grain; no comprehensive time-varying WCAG contrast certification claimed.
+
+Preview https://safelisting-flagship-v3-hdkfxxxe5-irtiza-aziz-s-projects.vercel.app (dpl_Cj6ZGQrvLDDa3VZ1TLK7zWRQpjWk). Production not promoted; PR #8 remains draft. Next: user reviews this reference-matching preview and cursor recording.

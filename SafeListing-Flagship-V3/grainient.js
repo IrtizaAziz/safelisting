@@ -572,7 +572,7 @@ function render(host, settings) {
       canvas.remove();
     };
 }
-const defaults = {colors:['#FFF9F6','#F9E4D8','#F58220','#F15A22','#D71920'],type:0,angle:55,bands:1,speed:0.35,flow:0.8,scale:1,softness:1,silk:0.35,grainAmount:0.06,grainSize:1.2,grainAnimated:true,contrast:1.03,saturation:0.8,variation:0,interactive:true,stir:0.35,clickSwirl:false,intro:false,lightMode:false};
+const defaults = {colors:['#120f17','#2a0f0a','#9a3412','#f97316','#fed7aa'],type:0,angle:55,bands:1,speed:1,flow:0.8,scale:1,softness:1,silk:0.35,grainAmount:0.08,grainSize:1.2,grainAnimated:true,contrast:1,saturation:1,variation:0,interactive:true,stir:1,clickSwirl:false,intro:false,lightMode:false};
 export function mountGrainient(host, overrides = {}) {
   const settings = {...defaults,...overrides};
   const media = matchMedia('(prefers-reduced-motion: reduce)');
