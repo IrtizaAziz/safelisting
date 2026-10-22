@@ -61,3 +61,7 @@ User requested deletion of issuer gate on latest ember/timeline refinement. Remo
 
 ## Direct issuer final copy/preview - 23 October 2026 MYT
 Aligned heading to requested Every listing. Accounted for. and retained one Illustrative workspace label. Final preview https://safelisting-flagship-v3-cbcrx28i2-irtiza-aziz-s-projects.vercel.app. PR12; no production promotion. Details and validation: SafeListing-Flagship-V3/ISSUER_DIRECT_REPORT.md. Next: user preview review.
+
+
+## Editorial heroes — 23 October 2026 MYT
+Approved Dark Editorial heroes implemented from a8d8fc0; homepage Grainient retained. Preview https://safelisting-flagship-v3-h7brl7vub-irtiza-aziz-s-projects.vercel.app. Node22 check, six-width local/public journeys, 68 refinement checks, issuer matrix, timeline and renderer tests pass. Codex assisted CSS/copy, tests and visual review using the requested design skills. No new assets/dependencies/licences; existing IP limitations retained. Report: SafeListing-Flagship-V3/HERO_EDITORIAL_REPORT.md. Production unchanged. Next: user visual review before merge/promotion; physical-device/screen-reader acceptance unverified.
