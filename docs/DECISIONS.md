@@ -53,3 +53,15 @@ User screenshot identified missing issuer entry spacing. Restored card padding, 
 
 ## Flagship skill-driven refinement — 22 October 2026 MYT
 User approved refining deployment HEAD 1ad652d on codex/flagship-design-skills-refinement. Preserve static embedded pages, red/cream comparison language, master semantic colours and licensed font bytes. Selected compact phone record with expandable secondary details and native issuer view selector. Correct destination focus, local field errors, finding-state recognition and unknown payment framing. No backend, framework, production promotion or PR #4 merge. Separate preview and draft PR target codex/deploy-flagship-v3; user visual approval is the release gate.
+
+
+## Grainient preview - 23 October 2026 MYT
+User approved actual React Bits Grainient port, native WebGL2 and one hero instance. Source e12c22192ac7b4b452c5e2feb9b586d74765d696; original shader strings preserved. MIT + Commons Clause notice shipped; background IP/competition review remains open. Codex assisted adaptation, CSS, QA and documentation; no model API or new package. Node22 quality check and flagship build pass; lifecycle/public preview evidence and measured startup long-task limitation are in SafeListing-Flagship-V3/GRAINIENT_REPORT.md. Preview https://safelisting-flagship-v3-b5mlix22l-irtiza-aziz-s-projects.vercel.app; production dpl_FDQnCoW2Z8WTmJq9BStZMdWb3a1D unchanged. Branch codex/flagship-grainient; unrelated existing work/index preserved. Exact next task: user reviews preview/motion; no merge or production promotion until approved.
+
+
+## Full-hero Grainient correction - 23 October 2026 MYT
+User approved moving the original React Bits effect across the entire hero with unchanged shaders and no new dependencies. Full-width outer hero/inner content container, warm palette/scrim, solid form/card; following sections untouched. Node22 check, six-width journeys and 68 refinement checks pass. Evidence and performance limitations: SafeListing-Flagship-V3/GRAINIENT_REPORT.md. Preview https://safelisting-flagship-v3-3h423x9xm-irtiza-aziz-s-projects.vercel.app; draft PR #8. AI assistance: Codex implementation, visual inspection and automated QA. Existing licence/Background IP limitations retained. Next task: user reviews full-hero preview; no production promotion or merge.
+
+
+## Grainient reference/cursor correction - 23 October 2026 MYT
+Restored user-supplied dark ember palette, original speed/grain/contrast/saturation and stir strength 1; removed cream overlay, adapted hero copy to light text. Same pinned shaders and licence; no new dependency. Codex assisted implementation, live uniform diagnosis and frozen-renderer pixel test. Cursor test: 190133 pixels change with stirring, zero control changes, weights settle to zero. Node22 check, six-width journeys, 68 refinement checks and public-preview lifecycle tests pass. Startup long task remains 292ms in one sample. See SafeListing-Flagship-V3/GRAINIENT_REPORT.md. Preview https://safelisting-flagship-v3-hdkfxxxe5-irtiza-aziz-s-projects.vercel.app; PR #8 draft. Production unchanged. Next task: user visual/cursor review before any merge/promotion.

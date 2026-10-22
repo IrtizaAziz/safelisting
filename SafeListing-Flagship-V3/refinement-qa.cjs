@@ -8,7 +8,7 @@ const assert = require('node:assert/strict');
     const route = new URL(req.url, 'http://localhost').pathname;
     const file = ['/', '/issuer', '/verify'].includes(route) || route.startsWith('/verify/') ? 'dist/index.html' : 'dist' + route;
     if (!fs.existsSync(file) || !fs.statSync(file).isFile()) return res.writeHead(404).end();
-    res.setHeader('Content-Type', file.endsWith('.js') ? 'text/javascript' : file.endsWith('.woff2') ? 'font/woff2' : 'text/html');
+    res.setHeader('Content-Type', file.endsWith('.js') ? 'text/javascript' : file.endsWith('.css') ? 'text/css' : file.endsWith('.woff2') ? 'font/woff2' : 'text/html');
     res.end(fs.readFileSync(file));
   });
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));

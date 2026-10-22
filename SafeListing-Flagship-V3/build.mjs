@@ -16,6 +16,7 @@ assert.notEqual(output, source, 'Host router must be replaced');
 await mkdir('dist/flagship-v3.2/assets', { recursive: true });
 await writeFile('dist/index.html', output);
 await copyFile('router.js', 'dist/router.js');
+for (const asset of ['grainient.js', 'grainient.css', 'REACT-BITS-LICENSE.txt']) await copyFile(asset, 'dist/' + asset);
 const font = pages.home.match(/data:font\/woff2;base64,([A-Za-z0-9+/=]+)/);
 assert(font, 'Export must contain its embedded font');
 await writeFile('dist/flagship-v3.2/assets/plus-jakarta-sans-latin-variable.woff2', Buffer.from(font[1], 'base64'));
