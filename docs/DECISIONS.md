@@ -85,3 +85,7 @@ Aligned heading to requested Every listing. Accounted for. and retained one Illu
 
 ## Editorial heroes — 23 October 2026 MYT
 Approved Dark Editorial heroes implemented from a8d8fc0; homepage Grainient retained. Preview https://safelisting-flagship-v3-h7brl7vub-irtiza-aziz-s-projects.vercel.app. Node22 check, six-width local/public journeys, 68 refinement checks, issuer matrix, timeline and renderer tests pass. Codex assisted CSS/copy, tests and visual review using the requested design skills. No new assets/dependencies/licences; existing IP limitations retained. Report: SafeListing-Flagship-V3/HERO_EDITORIAL_REPORT.md. Production unchanged. Next: user visual review before merge/promotion; physical-device/screen-reader acceptance unverified.
+
+
+## Plain-language copy cleanup - 23 October 2026 MYT
+User requested removal of robotic metadata throughout the website. Preserved latest editorial hero refinements (5b351ff); removed redundant property/example caption, public lookup pseudo-label, decorative section captions and technical pipeline labels. Simplified comparison/issuer labels while preserving statuses, synthetic-data disclosure and unavailable-operation feedback. Humanizer skill used; Codex assisted copy editing and build/browser QA. No dependencies/functionality/production changes. Preview https://safelisting-flagship-v3-3ifqv8nv4-irtiza-aziz-s-projects.vercel.app; branch codex/plain-language-copy. Next: user visual review before merge/promotion.
