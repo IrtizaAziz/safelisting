@@ -97,3 +97,7 @@ User requested previous hero/WebGL and headline colouring after editorial change
 
 ## Ember hero card surfaces - 23 October 2026 MYT
 User approved subtle dark translucent reference/comparison panels over restored ember hero. Scoped CSS only; shader, headline, illustration, HTML/functionality and other workspaces unchanged. Added computed-style/contrast/focus/validation/route/CLS checks. Static build, six-width public journeys and 68 refinement checks pass; foreground/controls meet contrast bounds even with pure-white background behind panels. One canvas, sampled 16.7ms frames; initial CLS identical to baseline, zero post-font shift. Impeccable guidance and Codex used for CSS, visual QA and report; no new dependency/asset/licence. Preview https://safelisting-flagship-v3-i0lf108qh-irtiza-aziz-s-projects.vercel.app; report SafeListing-Flagship-V3/HERO_SURFACES_REPORT.md. Production unchanged. Next: user preview review before merge/promotion.
+
+
+## Reference-first hero - 23 October 2026 MYT
+User approved selective peach/gold accents and full-width form immediately beneath headline, before explanatory copy. Existing shader/illustration/timeline/issuer/verifier retained. Scoped home markup/CSS. Codex/Impeccable assisted implementation/rendered QA. Build, six-width journeys and reference tests pass; frame samples and contrast limitations in HERO_REFERENCE_REPORT.md. Preview https://safelisting-flagship-v3-mw909q8fy-irtiza-aziz-s-projects.vercel.app. Production unchanged; next: user visual review before merge/promotion.
