@@ -25,3 +25,7 @@ Codex replaced the obsolete nested DESIGN.md with a master-aligned pointer, pres
 
 ## Flagship V3 deployment — 22 October 2026 MYT
 OpenAI Codex inspected the user-provided OpenDesign export and authored a minimal static build, clean-URL host router, Vercel configuration, browser QA and deployment notes. Ponytail skill applied; no redesign, new model, generated image, dataset or backend. Existing export pages, illustrative fixtures and authority disclosures retained. User authenticated Vercel; Codex executed dedicated project creation, preview deployment, promotion and unauthenticated production checks. Root Node 22 check, original verifier/issuer checks and local/preview/production Chrome journeys passed at 1440/1280/768/390/320px; local homepage pixel comparisons match the original. Physical-device/screen-reader acceptance remains open.
+
+
+## Issuer entry layout repair — 22 October 2026 MYT
+Codex used Ponytail and Impeccable layout guidance to diagnose and repair missing exported issuer-card CSS. Added actual rendered padding and mobile-stack assertions. Local and public preview journeys pass at 1440/1280/768/390/320px; desktop and compact mobile screenshots inspected. Root Node 22 check passes. Existing warm canvas detector warning retained under approved design. No asset/model/dependency added.

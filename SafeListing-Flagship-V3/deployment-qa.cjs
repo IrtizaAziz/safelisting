@@ -69,7 +69,7 @@ const assert = require('node:assert/strict');
       await app().locator('#compare').click();
       assert.match(await app().locator('#result-summary').innerText(), /Two details contradict/);
       await app().locator('#copy').click();
-      assert((await context.pages()[0].evaluate(() => navigator.clipboard.readText())).length > 0);
+      await page.waitForFunction(async () => (await navigator.clipboard.readText()).length > 0);
       await page.screenshot({ path: `deployment-evidence/verify-${width}.png`, fullPage: true });
       await app().locator('#edit-claims').click();
       await app().locator('#rent').fill('1850');
@@ -84,6 +84,15 @@ const assert = require('node:assert/strict');
       await open('/verify/SL-2026-PJ-1208-SEP');
       await app().locator('#lookup-feedback').filter({ hasText: 'EXPIRED' }).waitFor();
       await open('/issuer');
+      const card = app().locator('.sample-entry');
+      assert(await card.evaluate(e => parseFloat(getComputedStyle(e).paddingLeft) >= 24));
+      await overflow(width);
+      await page.screenshot({ path: `deployment-evidence/issuer-entry-${width}.png`, fullPage: true });
+      if (width < 640) {
+        const sampleAction = await card.locator('a.btn').boundingBox();
+        const signIn = await card.locator('#access-action').boundingBox();
+        assert(signIn.y >= sampleAction.y + sampleAction.height, 'Mobile issuer actions must stack');
+      }
       await app().locator('#access-action').click();
       assert.match(await app().locator('#access-feedback').innerText(), /not connected/);
       await app().locator('[data-od-id="open-sample-workspace"]').click();

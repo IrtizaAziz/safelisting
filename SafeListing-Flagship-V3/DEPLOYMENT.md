@@ -44,3 +44,7 @@ Reproduce: `npm run build`, then `node deployment-qa.cjs` (local), or `node depl
 Initial attempts failed because nested font files were excluded by the upload allowlist and a repository-style root setting did not fit folder-based CLI uploads. Both were resolved before the successful preview. The first Vercel CLI creation auto-connected Git; that connection was removed from this new project. No existing Vercel project was changed. The successful preview was promoted to production after browser acceptance; Vercel creates a production deployment during promotion.
 
 Next task: team review on physical phones and with assistive technology, then separately scope real trust/issuer services. Do not represent this frontend deployment as implementation of those services.
+
+
+## Issuer entry layout repair — 22 October 2026 MYT
+Restored missing spacing on the issuer entry card: responsive inner padding, bounded 760px width, separate text/action/disclosure spacing, surface background and stacked mobile actions. Content and sample behaviour are unchanged. Added rendered padding/stack/overflow assertions and issuer-entry screenshots at all five QA widths. Copy QA now waits for asynchronous clipboard completion. Preview: https://safelisting-flagship-v3-fzikabxfj-irtiza-aziz-s-projects.vercel.app. Impeccable layout guidance used; detector warning for the existing warm canvas intentionally retained under the approved visual design. Root Node 22 check and local/preview Chrome journeys pass.
