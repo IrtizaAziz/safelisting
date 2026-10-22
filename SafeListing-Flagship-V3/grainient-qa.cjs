@@ -13,6 +13,8 @@ const fs=require('node:fs'),http=require('node:http'),assert=require('node:asser
  for(const width of [1440,768,390]){
  await page.setViewportSize({width,height:900});await open();const frame=page.frames()[1];await frame.waitForFunction(()=>document.querySelector('.sl-grainient').dataset.state==='animated');await page.waitForTimeout(500);
  await page.screenshot({path:dir+'/animated-'+width+'.png'});
+ await frame.locator('.hero').screenshot({path:dir+'/whole-hero-'+width+'.png'});
+ assert(await frame.evaluate(()=>{const hero=document.querySelector('.hero').getBoundingClientRect(),layer=document.querySelector('.sl-grainient').getBoundingClientRect(),next=document.querySelector('.problem').getBoundingClientRect();return hero.width===innerWidth && layer.width===hero.width && Math.abs(layer.height-hero.height)<1 && next.top>=hero.bottom-1;}),'Full-width hero coverage ending before next section');
  results.push(await frame.evaluate(async()=>{const times=[];let last=performance.now();await new Promise(resolve=>{function tick(t){times.push(t-last);last=t;if(times.length<60)requestAnimationFrame(tick);else resolve();}requestAnimationFrame(tick);});const canvas=document.querySelector('.sl-grainient canvas');return {width:innerWidth,canvas:[canvas.width,canvas.height],overflow:document.documentElement.scrollWidth>innerWidth,frameIntervalMedian:times.sort((a,b)=>a-b)[30],renderer:canvas.getContext('webgl2').getParameter(7937)};}));
  await page.mouse.move(width-50,210);await page.mouse.move(width-140,240,{steps:12});
  await open('?background=static');await page.waitForTimeout(200);assert.equal(await page.frameLocator('#application').locator('.sl-grainient canvas').count(),0);await page.screenshot({path:dir+'/fallback-'+width+'.png'});

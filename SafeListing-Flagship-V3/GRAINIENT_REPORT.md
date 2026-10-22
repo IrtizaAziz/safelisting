@@ -1,6 +1,8 @@
 # Grainient integration — 23 October 2026 MYT
 
-Preview: https://safelisting-flagship-v3-b5mlix22l-irtiza-aziz-s-projects.vercel.app
+Current full-hero preview: https://safelisting-flagship-v3-3h423x9xm-irtiza-aziz-s-projects.vercel.app
+
+Earlier measurements/configuration below describe the initial accent version; the revision entry supersedes placement and palette.
 
 Branch: `codex/flagship-grainient`, based on `e53bea4`. Production remains deployment `dpl_FDQnCoW2Z8WTmJq9BStZMdWb3a1D`, confirmed with Vercel inspect after preview creation. No promotion or merge.
 
@@ -37,3 +39,11 @@ Full upstream copyright and MIT + Commons Clause v1.0 terms are retained in `REA
 Public preview also passes all 68 refinement checks and the complete six-width journey/walkthrough suite. Local test servers now serve external CSS with the correct MIME type; previously these fixtures served only JavaScript, fonts and HTML. Homepage export parity compares critical content and geometry, excluding the decorative animation rather than comparing changing screenshot buffers. Initial failed fixture runs are retained in local logs.
 
 Next task: user reviews the preview and captured motion; production promotion and merge require separate approval.
+
+
+## Full-hero correction - 23 October 2026 MYT
+User rejected the small illustration accent and approved full hero coverage. Moved the layer to the outer full-width hero with an inner content container. Removed the radial mask, partial width and mobile opacity restriction. Canvas covers the full hero from beneath navigation through comparison card, stops before the problem section, and keeps the form/card solid. Broad warm scrim preserves headline readability. Palette now #FFF9F6, #F9E4D8, #F58220, #F15A22, #D71920; other shader settings unchanged. No shader/API/dependency changes.
+
+Canvas CSS dimensions at 1440/768/390 widths: 1440x1162, 768x1152, 390x1170. All frame interval medians 16.7ms. Repeated local input sample baseline/enhanced 18.1/15.0ms; CLS 0/0; long tasks 110ms baseline and 92/253ms enhanced. These are individual scheduling samples, not GPU benchmarks or speed improvement claims.
+
+Node22 full quality check, flagship build, six-width local journeys and 68 refinement checks pass. New QA asserts hero width equals viewport, layer height matches section and next section starts after it. Evidence: grainient-evidence/full-hero-preview (whole-hero PNGs, animated and fallback captures at three widths, video and results). Preview deployment dpl_A7Sz3gx8s2M5bVUCvjZd8L2rWJQ4. Production not promoted; PR #8 remains draft.
