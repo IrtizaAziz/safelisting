@@ -3,6 +3,7 @@ const fs = require('node:fs');
 const http = require('node:http');
 const path = require('node:path');
 const assert = require('node:assert/strict');
+const evidence = process.env.SL_EVIDENCE_DIR || 'deployment-evidence';
 
 (async () => {
   const server = http.createServer((req, res) => {
@@ -31,13 +32,13 @@ const assert = require('node:assert/strict');
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth), width);
     assert.equal(await app().locator('html').evaluate(e => e.scrollWidth), width);
   };
-  fs.mkdirSync('deployment-evidence', { recursive: true });
+  fs.mkdirSync(evidence, { recursive: true });
   try {
-    for (const width of [1440, 1280, 768, 390, 320]) {
+    for (const width of [1440, 1280, 1024, 768, 390, 320]) {
       await page.setViewportSize({ width, height: 900 });
       await open('/');
       await overflow(width);
-      await page.screenshot({ path: `deployment-evidence/home-${width}.png`, fullPage: true });
+      await page.screenshot({ path: `${evidence}/home-${width}.png`, fullPage: true });
       if (!process.argv[2]) {
         const deployed = await page.screenshot();
         await open('/export');
@@ -70,7 +71,7 @@ const assert = require('node:assert/strict');
       assert.match(await app().locator('#result-summary').innerText(), /Two details contradict/);
       await app().locator('#copy').click();
       await page.waitForFunction(async () => (await navigator.clipboard.readText()).length > 0);
-      await page.screenshot({ path: `deployment-evidence/verify-${width}.png`, fullPage: true });
+      await page.screenshot({ path: `${evidence}/verify-${width}.png`, fullPage: true });
       await app().locator('#edit-claims').click();
       await app().locator('#rent').fill('1850');
       await app().locator('#contact').fill('Nadia Rahman');
@@ -87,7 +88,7 @@ const assert = require('node:assert/strict');
       const card = app().locator('.sample-entry');
       assert(await card.evaluate(e => parseFloat(getComputedStyle(e).paddingLeft) >= 24));
       await overflow(width);
-      await page.screenshot({ path: `deployment-evidence/issuer-entry-${width}.png`, fullPage: true });
+      await page.screenshot({ path: `${evidence}/issuer-entry-${width}.png`, fullPage: true });
       if (width < 640) {
         const sampleAction = await card.locator('a.btn').boundingBox();
         const signIn = await card.locator('#access-action').boundingBox();
@@ -98,10 +99,13 @@ const assert = require('node:assert/strict');
       await app().locator('[data-od-id="open-sample-workspace"]').click();
       await app().locator('#workspace').waitFor({ state: 'visible' });
       await overflow(width);
-      await page.screenshot({ path: `deployment-evidence/issuer-${width}.png`, fullPage: true });
+      await page.screenshot({ path: `${evidence}/issuer-${width}.png`, fullPage: true });
       for (const view of ['details', 'create', 'authority', 'manage', 'overview']) {
-        const link = app().locator(`[data-view="${view}"]`);
-        if (await link.count()) { await link.click(); await overflow(width); }
+        const selector = app().locator('#issuer-view');
+        if (await selector.isVisible()) await selector.selectOption(view);
+        else await app().locator(`[data-view="${view}"]`).click();
+        await app().locator('#' + view).waitFor({ state: 'visible' });
+        await overflow(width);
       }
       await page.reload();
       await app().locator('#workspace').waitFor({ state: 'visible' });
@@ -136,7 +140,7 @@ const assert = require('node:assert/strict');
     await app().locator('#lookup-feedback').filter({ hasText: 'Live verification is unavailable' }).waitFor();
     assert.deepEqual(errors, []);
     assert.deepEqual(failures, []);
-    fs.writeFileSync('deployment-evidence/' + (process.argv[2] ? 'remote-results.json' : 'local-results.json'), JSON.stringify({ base, results, walkthrough: 'real-time play/pause/resume/completion/replay; single indicator', errors, failures }, null, 2));
+    fs.writeFileSync(evidence + '/' + (process.argv[2] ? 'remote-results.json' : 'local-results.json'), JSON.stringify({ base, results, walkthrough: 'real-time play/pause/resume/completion/replay; single indicator', errors, failures }, null, 2));
     console.log('PASS', base, results.length, 'viewport journeys; walkthrough; clean deep links and refresh; no JS or asset errors');
   } catch (e) { console.error({ errors, failures, url: page.url(), feedback: await app().locator('body').innerText().catch(() => '') }); throw e;
   } finally { await browser.close(); server.close(); }
