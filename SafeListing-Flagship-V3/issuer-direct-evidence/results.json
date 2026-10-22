@@ -1,0 +1,50 @@
+[
+  {
+    "width": 320,
+    "direct": true,
+    "compatibility": true,
+    "views": 5,
+    "history": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "direct": true,
+    "compatibility": true,
+    "views": 5,
+    "history": true,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "direct": true,
+    "compatibility": true,
+    "views": 5,
+    "history": true,
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "direct": true,
+    "compatibility": true,
+    "views": 5,
+    "history": true,
+    "errors": []
+  },
+  {
+    "width": 1280,
+    "direct": true,
+    "compatibility": true,
+    "views": 5,
+    "history": true,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "direct": true,
+    "compatibility": true,
+    "views": 5,
+    "history": true,
+    "errors": []
+  }
+]

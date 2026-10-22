@@ -90,18 +90,8 @@ const evidence = process.env.SL_EVIDENCE_DIR || 'deployment-evidence';
       await open('/verify/SL-2026-PJ-1208-SEP');
       await app().locator('#lookup-feedback').filter({ hasText: 'EXPIRED' }).waitFor();
       await open('/issuer');
-      const card = app().locator('.sample-entry');
-      assert(await card.evaluate(e => parseFloat(getComputedStyle(e).paddingLeft) >= 24));
-      await overflow(width);
-      await page.screenshot({ path: `${evidence}/issuer-entry-${width}.png`, fullPage: true });
-      if (width < 640) {
-        const sampleAction = await card.locator('a.btn').boundingBox();
-        const signIn = await card.locator('#access-action').boundingBox();
-        assert(signIn.y >= sampleAction.y + sampleAction.height, 'Mobile issuer actions must stack');
-      }
-      await app().locator('#access-action').click();
-      assert.match(await app().locator('#access-feedback').innerText(), /not connected/);
-      await app().locator('[data-od-id="open-sample-workspace"]').click();
+      assert.equal(await app().locator('.sample-entry, #access, #access-action').count(), 0);
+      await app().locator('#overview').waitFor({ state: 'visible' });
       await app().locator('#workspace').waitFor({ state: 'visible' });
       await overflow(width);
       await page.screenshot({ path: `${evidence}/issuer-${width}.png`, fullPage: true });

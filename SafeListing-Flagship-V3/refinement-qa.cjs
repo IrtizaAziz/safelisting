@@ -135,11 +135,11 @@ const assert = require('node:assert/strict');
       assert(await app().locator('#open-revoke').evaluate(e => e === document.activeElement));
     });
     await open('/issuer?access=reviewer');
-    await check('unavailable authenticated access', async () => {
-      assert(!await app().locator('#workspace').isVisible());
-      assert(!await app().locator('#issuer-view').isVisible());
-      await app().locator('#access-action').click();
-      assert.match(await app().locator('#access-feedback').innerText(), /not connected/);
+    await check('direct illustrative access ignores legacy role query', async () => {
+      assert(await app().locator('#workspace').isVisible());
+      assert(await app().locator('#overview').isVisible());
+      assert.equal(await app().locator('#access, #access-action').count(), 0);
+      assert.equal(await app().getByText('Illustrative workspace', { exact: true }).count(), 1);
     });
     await open('/issuer?mode=sample&view=create&review=pending');
     await check('authority eligibility restriction', async () => {
