@@ -1,0 +1,61 @@
+{
+  "ratios": {
+    "body": 10.701616760859173,
+    "muted": 7.779080336613796,
+    "input": 18.196533526690455,
+    "placeholder": 13.227187939464857,
+    "inputBoundary": 3.6055174560281693,
+    "goldOnPanel": 8.016445323642289,
+    "buttonText": 4.971950374412833,
+    "buttonBoundary": 5.83755204721092,
+    "focus": 5.997662686222177,
+    "error": 9.784783320413903
+  },
+  "worstCasePanel": [
+    60.66,
+    58.199999999999996,
+    64.75999999999999
+  ],
+  "results": [
+    {
+      "width": 320,
+      "background": "rgba(18, 15, 23, 0.82)",
+      "proof": "rgba(18, 15, 23, 0.82)",
+      "field": "rgb(255, 249, 246)",
+      "overflow": false,
+      "initialCLS": 0.0013025043402777779,
+      "cls": 0,
+      "canvases": 1
+    },
+    {
+      "width": 390,
+      "background": "rgba(18, 15, 23, 0.82)",
+      "proof": "rgba(18, 15, 23, 0.82)",
+      "field": "rgb(255, 249, 246)",
+      "overflow": false,
+      "initialCLS": 0.0014669462250712251,
+      "cls": 0,
+      "canvases": 1
+    },
+    {
+      "width": 768,
+      "background": "rgba(18, 15, 23, 0.82)",
+      "proof": "rgba(18, 15, 23, 0.82)",
+      "field": "rgb(255, 249, 246)",
+      "overflow": false,
+      "initialCLS": 0.004760634132667824,
+      "cls": 0,
+      "canvases": 1
+    },
+    {
+      "width": 1440,
+      "background": "rgba(18, 15, 23, 0.82)",
+      "proof": "rgba(18, 15, 23, 0.82)",
+      "field": "rgb(255, 249, 246)",
+      "overflow": false,
+      "initialCLS": 0.008006361956393605,
+      "cls": 0,
+      "canvases": 1
+    }
+  ]
+}
