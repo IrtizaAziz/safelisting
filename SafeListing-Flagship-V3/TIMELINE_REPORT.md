@@ -18,3 +18,7 @@ Node 22.23.4 root check passed typecheck/lint/all six tests/build. Static build 
 ## Authorised preview — 23 October 2026 MYT
 User instructed proceed after the documented publication hold. Preview published with licence-verification gaps retained: https://safelisting-flagship-v3-2ck7tb8m4-irtiza-aziz-s-projects.vercel.app (dpl_3CAFUT2XL9NisGYQL2BVVZD1fGzb). This instruction supersedes the publication hold above; it does not establish licence clearance. Preview target only; no production promotion. Remote timeline matrix passes 10 cases. Draft PR #7 remains unmerged.
 
+
+## Timeline viewport repair — 23 October 2026 MYT
+Fixed fixed-half-height layout clipping behind navigation and beyond viewport. Measure top/bottom content, reserve 92px header clearance and 28px bottom space, position rail accordingly; use one horizontal row when alternating rows cannot fit. Four desktop fit cases (1280x760/800, 1440x900/1000) pass locally and on preview. Ten viewport/preference cases and extended resize/reverse/short-height/asset-failure suite pass; protected verifier/issuer/font contract passes. Preview https://safelisting-flagship-v3-5t7c9hmf1-irtiza-aziz-s-projects.vercel.app, dpl_CBzNNrop9ycMcXKqa2GjM2sxHmxJ. Production unchanged; prior licence limitations remain. Next: user reviews viewport fit.
+

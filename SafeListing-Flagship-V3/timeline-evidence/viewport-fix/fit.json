@@ -1,0 +1,146 @@
+[
+  {
+    "width": 1280,
+    "height": 800,
+    "stages": [
+      {
+        "stage": "The Advertisement",
+        "top": 124,
+        "bottom": 441.96875,
+        "height": 800
+      },
+      {
+        "stage": "The Reference",
+        "top": 124,
+        "bottom": 459,
+        "height": 800
+      },
+      {
+        "stage": "The Record",
+        "top": 124,
+        "bottom": 432.96875,
+        "height": 800
+      },
+      {
+        "stage": "The Comparison",
+        "top": 124,
+        "bottom": 519.171875,
+        "height": 800
+      },
+      {
+        "stage": "The Decision",
+        "top": 124,
+        "bottom": 471.15625,
+        "height": 800
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "stages": [
+      {
+        "stage": "The Advertisement",
+        "top": 124,
+        "bottom": 446.5625,
+        "height": 900
+      },
+      {
+        "stage": "The Reference",
+        "top": 124,
+        "bottom": 466.90625,
+        "height": 900
+      },
+      {
+        "stage": "The Record",
+        "top": 124,
+        "bottom": 437.5625,
+        "height": 900
+      },
+      {
+        "stage": "The Comparison",
+        "top": 124,
+        "bottom": 532.484375,
+        "height": 900
+      },
+      {
+        "stage": "The Decision",
+        "top": 124,
+        "bottom": 450.15625,
+        "height": 900
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "stages": [
+      {
+        "stage": "The Advertisement",
+        "top": 95.4375,
+        "bottom": 418,
+        "height": 1000
+      },
+      {
+        "stage": "The Reference",
+        "top": 466,
+        "bottom": 808.90625,
+        "height": 1000
+      },
+      {
+        "stage": "The Record",
+        "top": 104.4375,
+        "bottom": 418,
+        "height": 1000
+      },
+      {
+        "stage": "The Comparison",
+        "top": 466,
+        "bottom": 874.484375,
+        "height": 1000
+      },
+      {
+        "stage": "The Decision",
+        "top": 91.84375,
+        "bottom": 418,
+        "height": 1000
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "height": 760,
+    "stages": [
+      {
+        "stage": "The Advertisement",
+        "top": 124,
+        "bottom": 441.96875,
+        "height": 760
+      },
+      {
+        "stage": "The Reference",
+        "top": 124,
+        "bottom": 459,
+        "height": 760
+      },
+      {
+        "stage": "The Record",
+        "top": 124,
+        "bottom": 432.96875,
+        "height": 760
+      },
+      {
+        "stage": "The Comparison",
+        "top": 124,
+        "bottom": 519.171875,
+        "height": 760
+      },
+      {
+        "stage": "The Decision",
+        "top": 124,
+        "bottom": 471.15625,
+        "height": 760
+      }
+    ]
+  }
+]
