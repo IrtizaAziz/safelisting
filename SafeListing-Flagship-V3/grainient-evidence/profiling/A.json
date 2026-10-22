@@ -1,0 +1,64 @@
+{
+  "longTasks": [
+    {
+      "start": 540.4000000000233,
+      "duration": 124
+    },
+    {
+      "start": 706.3000000000466,
+      "duration": 160
+    }
+  ],
+  "spans": [
+    {
+      "name": "getContext",
+      "start": 707.4000000000233,
+      "duration": 159
+    },
+    {
+      "name": "getShaderParameter",
+      "start": 868.8000000000466,
+      "duration": 1.5
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 1084.9000000000233,
+      "duration": 1.1999999999534339
+    },
+    {
+      "name": "getShaderParameter",
+      "start": 868.2000000000698,
+      "duration": 0.5999999999767169
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 933.9000000000233,
+      "duration": 0.5999999999767169
+    },
+    {
+      "name": "getShaderParameter",
+      "start": 871,
+      "duration": 0.5
+    },
+    {
+      "name": "getContext",
+      "start": 1086.5,
+      "duration": 0.30000000004656613
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 907.0999999999767,
+      "duration": 0.2000000000698492
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 1031.5999999999767,
+      "duration": 0.2000000000698492
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 1075.5999999999767,
+      "duration": 0.2000000000698492
+    }
+  ]
+}
