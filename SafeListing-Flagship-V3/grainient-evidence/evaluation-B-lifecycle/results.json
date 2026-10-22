@@ -1,0 +1,77 @@
+{
+  "base": "https://safelisting-flagship-v3-aq0s2om24-irtiza-aziz-s-projects.vercel.app",
+  "label": "B-lifecycle",
+  "results": [
+    {
+      "width": 1440,
+      "cpuThrottle": 1,
+      "inputFillMs": 9.787599999999884,
+      "resolution": [
+        1440,
+        900
+      ],
+      "css": [
+        1440,
+        900
+      ],
+      "estimatedColourTargetBytes": 6480000,
+      "longTasks": [
+        103,
+        163
+      ],
+      "drawIntervalMedian": 16.600000000093132,
+      "drawIntervalP95": 17.0999999998603,
+      "footerDraws": 0,
+      "heapBefore": 3640912,
+      "heapAfter": 3696932,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "cpuThrottle": 1,
+      "inputFillMs": 9.22440000000097,
+      "resolution": [
+        768,
+        900
+      ],
+      "css": [
+        768,
+        900
+      ],
+      "estimatedColourTargetBytes": 3456000,
+      "longTasks": [
+        102
+      ],
+      "drawIntervalMedian": 33.39999999990687,
+      "drawIntervalP95": 33.9000000001397,
+      "footerDraws": 0,
+      "heapBefore": 3640292,
+      "heapAfter": 3654188,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "cpuThrottle": 6,
+      "inputFillMs": 81.08649999999761,
+      "resolution": [
+        390,
+        900
+      ],
+      "css": [
+        390,
+        900
+      ],
+      "estimatedColourTargetBytes": 1755000,
+      "longTasks": [
+        681,
+        255
+      ],
+      "drawIntervalMedian": 33.199999999953434,
+      "drawIntervalP95": 36.10000000009313,
+      "footerDraws": 0,
+      "heapBefore": 3694328,
+      "heapAfter": 3712624,
+      "errors": []
+    }
+  ]
+}

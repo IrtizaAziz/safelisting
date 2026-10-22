@@ -1,0 +1,110 @@
+{
+  "longTasks": [
+    {
+      "start": 546.0999999998603,
+      "duration": 105
+    }
+  ],
+  "spans": [
+    {
+      "name": "getContext",
+      "start": 839.3000000000466,
+      "duration": 3.7999999998137355
+    },
+    {
+      "name": "getShaderParameter",
+      "start": 844,
+      "duration": 1.5
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 1078.8000000000466,
+      "duration": 1.0999999998603016
+    },
+    {
+      "name": "getShaderParameter",
+      "start": 846.0999999998603,
+      "duration": 0.5
+    },
+    {
+      "name": "getShaderParameter",
+      "start": 843.5999999998603,
+      "duration": 0.4000000001396984
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 1006.5,
+      "duration": 0.39999999990686774
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 900.5,
+      "duration": 0.30000000004656613
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 928,
+      "duration": 0.30000000004656613
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 979.6999999999534,
+      "duration": 0.30000000004656613
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 988.1999999999534,
+      "duration": 0.30000000004656613
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 1025,
+      "duration": 0.30000000004656613
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 1050.6999999999534,
+      "duration": 0.30000000004656613
+    },
+    {
+      "name": "getShaderParameter",
+      "start": 845.8000000000466,
+      "duration": 0.2999999998137355
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 970.8000000000466,
+      "duration": 0.2999999998137355
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 855.0999999998603,
+      "duration": 0.20000000018626451
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 873.0999999998603,
+      "duration": 0.20000000018626451
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 882.0999999998603,
+      "duration": 0.20000000018626451
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 944.5999999998603,
+      "duration": 0.20000000018626451
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 1060.0999999998603,
+      "duration": 0.20000000018626451
+    },
+    {
+      "name": "getProgramParameter",
+      "start": 1078.5999999998603,
+      "duration": 0.20000000018626451
+    }
+  ]
+}
