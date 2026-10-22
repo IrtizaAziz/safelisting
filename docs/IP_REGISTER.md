@@ -90,3 +90,7 @@ User rejected reference-form reformatting. Restored fd8e31c card CSS and support
 
 ## Transparent reference form - 23 October 2026 MYT
 User requested listing form background blended fully into hero. Removed reference-form panel fill/border/shadow with transparent CSS; solid input/button and comparison panel unchanged. Codex assisted scoped CSS/build/browser checks. Preview https://safelisting-flagship-v3-ji8y1n675-irtiza-aziz-s-projects.vercel.app. Production unchanged; next: user visual review.
+
+
+## Issuer editorial record spine - 23 October 2026 MYT
+User approved Overview editorial hero from 5251e35. Added original SVG/CSS geometry connected to existing selected-record lifecycle, native actions, responsive strip and short reduced-motion-aware animation. Codex assisted design, implementation, tests and original geometry; no new dependency or third-party asset. Home/verifier payloads preserved. Node22 check, deployment journeys, 68 refinement checks, direct issuer tests and six-width public hero QA pass. Report: SafeListing-Flagship-V3/ISSUER_HERO_REPORT.md. Preview https://safelisting-flagship-v3-iq3v1rjaf-irtiza-aziz-s-projects.vercel.app/issuer. Production remains dpl_FDQnCoW2Z8WTmJq9BStZMdWb3a1D. Next: user reviews preview/draft PR before merge or promotion.
